@@ -290,7 +290,7 @@ cd ../output
 
 #This was run again on the snp_sites
 nohup iqtree -s core_gene_alignment_snp_sites.aln -m MFP -bb 1000 -nt AUTO >iqtree_core_genome_aln.out 2>iqtree_core_genome_aln.err &
-#JOBID=250084
+#JOBID=202926
 
 #This was run again on the full alignment (rather than the snp_sites)
 nohup iqtree -s ../Roary.out/core_gene_alignment.aln -m MFP -bb 1000 -nt AUTO >iqtree_core_genome_aln.out 2>iqtree_core_genome_aln.err &
