@@ -2,11 +2,12 @@ import re
 import subprocess
 import os
 
-configfile: "/projects/AusGEM/Users/Max/Manuscripts/ST95/snakemake/masterconfigs/masterconfig_ST95_all.yaml"
+configfile: "/projects/AusGEM/Users/Max/Manuscripts/ST95/snakemake/masterconfigs/masterconfig_plasdb.yaml"
 
 # Get assemblies
 sample_ids, = glob_wildcards(config['assemblies']+"/{sample}.fasta")
 prefix = config['prefix']
+maxthreads = snakemake.utils.available_cpu_count()
 
 db_location = config['gene_db_location']
 gene_dbs = expand(config['gene_dbs'])
@@ -33,7 +34,7 @@ rule all:
     input:
         expand(config['outdir']+"/{prefix}/abricate/{gene_db}/{sample}.tab",
                sample=sample_ids, gene_db=gene_dbs, prefix=prefix),
-        #expand(config['outdir']+"/{prefix}/abricate/"+"{prefix}_abricate.tab", prefix = output_pre)
+        #expand(config['outdir']+"/{prefix}/abricate/"+"{gene_db}.txt", prefix=prefix, gene_db=gene_dbs)
 
 rule abricate_run:
     input:
@@ -43,6 +44,8 @@ rule abricate_run:
         config['outdir']+"/{prefix}/abricate/{gene_db}/{sample}.tab"
     conda:
         "config/abricate.yaml"
+    threads:
+        6
     params:
         db = "{gene_db}", gene_db = gene_dbs,
         datadir = config['gene_db_location'],
@@ -54,13 +57,14 @@ rule abricate_run:
 # in beta
 rule summarise:
     input:
-        config['outdir']+"/{prefix}/abricate/" + \
-            "{prefix}/{gene_db}/{sample}.tab"
+        config['outdir']+"/{prefix}/abricate/{gene_db}/{sample}.tab"
     output:
-        config['outdir']+"/{prefix}/abricate/"+"{prefix}_abricate.tab"
+        config['outdir']+"/{prefix}/abricate/"+"{gene_db}.txt"
     conda:
         "config/abricate.yaml"
+    threads:
+        maxthreads
     params:
-        prefix = config['outdir']+"/{prefix}/abricate"
+        gene_db = config['outdir']+"/{gene_db}/abricate"
     shell:
-        "abricate --summary {params.prefix}/*/*.tab > {output};"
+        "abricate --summary {params.gene_db}/*/*.tab >> {output}"

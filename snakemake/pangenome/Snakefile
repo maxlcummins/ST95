@@ -1,7 +1,7 @@
 import re
 import os
 
-configfile: "/projects/AusGEM/Users/Max/Manuscripts/ST95/snakemake/masterconfigs/masterconfig_ST95_all.yaml"
+configfile: "/projects/AusGEM/Users/Max/Manuscripts/ST95/snakemake/masterconfigs/masterconfig_plasdb.yaml"
 
 prefix = config['prefix']
 maxthreads = snakemake.utils.available_cpu_count()
@@ -15,7 +15,9 @@ rule all:
     input:
         expand(config['outdir'] +
                "/{prefix}/pangenome/gffs/{sample}.gff", sample=sample_ids, prefix=prefix),
-        config['outdir']+"/"+config['prefix']+"/pangenome/roary_"+str(config['roary_core_req'])
+        config['outdir']+"/"+config['prefix']+"/pangenome/roary_"+str(config['roary_core_req']),
+        #config['outdir']+"/{prefix}/pangenome/roary_"+str(config['roary_core_req'])+"/core_gene_alignment.aln.treefile"
+
 
 
 rule prokka:
@@ -32,7 +34,7 @@ rule prokka:
         genus = config['genus']
     shell:
         """
-        prokka --cpus 5 {params.genus} --outdir {params.out}/{wildcards.sample} {input}
+        prokka {params.genus} --outdir {params.out}/{wildcards.sample} {input}
         cp {params.out}/{wildcards.sample}/*.gff {output}
         """
 
@@ -53,3 +55,17 @@ rule roary:
         core_req = config['roary_core_req']
     shell:
         "roary -e -n -r -cd {params.core_req} -p {params.threads} -f {params.out} {input}"
+
+rule iqtree:
+    input:
+        config['outdir']+"/{prefix}/pangenome/roary_"+str(config['roary_core_req'])+"/core_gene_alignment.aln"
+    output:
+        config['outdir']+"/{prefix}/pangenome/roary_"+str(config['roary_core_req'])+"/core_gene_alignment.aln.treefile"
+    conda:
+        "config/iqtree.yaml"
+    threads:
+        maxthreads
+#    log:
+#        "roary/logs/roary.log"
+    shell:
+        "iqtree -s {input} -m MFP -bb 1000"

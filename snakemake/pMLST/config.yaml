@@ -1,0 +1,14 @@
+##Configuration file for pMLSTlord
+#Path to assemblies to be screened by pMLSTlord
+assemblies: /projects/AusGEM/Users/Max/Manuscripts/AVC171/AVC171/assemblies/all
+#Output directory path
+outdir: /projects/AusGEM/Users/Max/Manuscripts/AVC171/AVC171/analysis/pMLST
+#Output prefix
+prefix: AVC171_all
+#Scheme
+#incF
+pmlst_scheme: "incf"
+#Reads or assemblies
+#Below is for fastas. If you want to use reads, unhash the line below it and replace it with the path the kma
+input_type: "-mp /usr/local/ncbi-blast-ihpc-2.8.1+/bin/blastn"
+#input_type: ""

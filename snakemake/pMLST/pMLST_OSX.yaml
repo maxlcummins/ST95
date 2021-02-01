@@ -1,0 +1,36 @@
+name: kma
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - biopython=1.77=py37haf1e3a3_0
+  - blas=1.0=mkl
+  - blast=2.6.0=boost1.64_2
+  - ca-certificates=2020.7.22=0
+  - certifi=2020.6.20=py37_0
+  - cgecore=1.5.5=pyh864c0ab_1
+  - intel-openmp=2020.2=258
+  - kma=1.3.3=hbbe82c9_0
+  - libcxx=10.0.0=1
+  - libedit=3.1.20191231=h1de35cc_1
+  - libffi=3.2.1=1
+  - mkl=2019.4=233
+  - mkl-service=2.3.0=py37hfbe908c_0
+  - mkl_fft=1.1.0=py37hc64f4ea_0
+  - mkl_random=1.1.1=py37h959d312_0
+  - ncurses=6.2=h0a44026_1
+  - numpy=1.19.1=py37h3b9f5b6_0
+  - numpy-base=1.19.1=py37hcfb5961_0
+  - openssl=1.1.1g=h1de35cc_0
+  - pip=20.2.2=py37_0
+  - python=3.7.7=hc70fcce_0_cpython
+  - readline=8.0=h1de35cc_0
+  - setuptools=49.6.0=py37_0
+  - six=1.15.0=py_0
+  - sqlite=3.33.0=hffcf06c_0
+  - tabulate=0.8.7=py37_0
+  - tk=8.6.10=hb0a8c7a_0
+  - wheel=0.35.1=py_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
+prefix: /Users/131785/miniconda/envs/kma

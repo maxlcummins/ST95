@@ -1,15 +1,15 @@
 ### General configuration variables                                                                                                              # general
 # Prefix for output files - here the collection name or an abbreviation for the relevant manuscript might be a good choice                       # general   
-prefix: ST95_all                                                                                                                          # general
+prefix: plasdb                                                                                                                     # general
 # Path to project directory where you want your output to go                                                                                     # general
 # Path to short-reads. Here it is assumed that your reads are set up as read pairs - analysis is unlikely to work if this isnt the case.         # general
 raw_reads:                                                                                        # general
 # Path to assemblies. These may be your initial input as sometimes it can be hard to source read for large collections                           # general
-assemblies: /projects/AusGEM/Users/Max/Manuscripts/ST95/data/assemblies/ST95_all                                         # general
+assemblies: /projects/AusGEM/databases/plasmid_db_Sistrom_2018/split_fastas
 # Path to blast executable                                                                                                                       # general
 blast_bin: /usr/local/ncbi-blast-2.8.1+/bin
 # Path to master output directory
-outdir: /projects/AusGEM/Users/Max/Manuscripts/ST95/output                                                                                              # general
+outdir: /projects/AusGEM/Users/Max/Manuscripts/ST95/output                                                                                             # general
 # Filtered reads (via fastp)
 reads:
 
@@ -723,16 +723,13 @@ params: -f 25
 # bin_size: 250
 # tick_size: 100
 
-# ##Configuration file for pMLSTlord
-# #Path to assemblies to be screened by pMLSTlord
-# assemblies: /projects/AusGEM/Users/Max/Manuscripts/AVC171/AVC171/assemblies/all
-# #Output directory path
-# outdir: /projects/AusGEM/Users/Max/Manuscripts/AVC171/AVC171/analysis/pMLST
-# #Output prefix
-# prefix: AVC171_all
-# #Scheme
-# #incF
-# pmlst_scheme: "incf"
+## ##Configuration file for pMLSTlord
+# pMLST scheme
+pmlst_scheme: ['incac','incf','inchi1','inchi2','inci1','incn','pbssb1-family']
+# #Below is for fastas. If you want to use reads, replace the blast path with the path to kma
+pmlst_tool: "-mp /usr/local/ncbi-blast-ihpc-2.8.1+/bin/blastn"
+# Path to your pMLST database
+pMLST_db_path: pmlst/pmlst_db
 # #Reads or assemblies
 # #Below is for fastas. If you want to use reads, unhash the line below it and replace it with the path the kma
 # input_type: "-mp /usr/local/ncbi-blast-ihpc-2.8.1+/bin/blastn"

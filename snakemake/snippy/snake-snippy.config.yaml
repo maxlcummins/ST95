@@ -1,0 +1,24 @@
+##Configuration file for snippy_snakemake
+#Path to read directory
+reads: /home/malcummi/Data/Manuscripts/Femoral_Head_2019/reads
+#Path to assemblies to be used in snippy. These must end in ".fasta"
+assemblies: /home/malcummi/Data/Manuscripts/ST117_2020/assemblies
+#Path to directory containing reference fasta file/s. This can be the same as your reads folder or just a folder called 'ref' in your snplord folder.
+#Note: Reference must be formatted to end in ".fa", not ".fasta", ".fsa" or anything else.
+ref: /home/malcummi/Data/Manuscripts/ST117_2020/data/snippy_ref
+#Output directory path
+outdir: /home/malcummi/Data/Manuscripts/ST117_2020/output/snippy
+#Output prefix
+prefix: ST117_2020
+
+
+
+#Gubbins params
+gubbins:
+ params: -f 25
+
+
+
+
+    
+

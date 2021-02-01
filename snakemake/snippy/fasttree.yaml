@@ -1,0 +1,10 @@
+name: fasttree-snake
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fasttree=2.1.10=h470a237_2
+  - libgcc-ng=8.2.0=hdf63c60_1
+prefix: /home/cjreid/miniconda3/envs/fasttree-snake
+

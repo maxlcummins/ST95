@@ -1,0 +1,72 @@
+import pandas as pd
+
+configfile: "/projects/AusGEM/Users/Max/Manuscripts/ST95/snakemake/masterconfigs/masterconfig_ST95_all.yaml"
+
+bigsi_refseq, = glob_wildcards(config['bigsi_refseq']+"/{reference}.fa")
+prefix=config['prefix']
+maxthreads = snakemake.utils.available_cpu_count()
+
+print(bigsi_refseq)
+
+rule all:
+    input:
+        #expand(config['outdir']+"/intermediate_files/"+"{reference}.csv", reference=bigsi_refseq)
+        #expand(config['outdir']+"/intermediate_files/{reference}_URLs.txt", reference=bigsi_refseq)
+#        expand(config['outdir']+"/jsons/{reference}/BIGSI.json.dummy", reference=bigsi_refseq)
+        expand(config['outdir']+"/{prefix}/csv/{reference}.dummy", reference=bigsi_refseq, prefix=prefix)
+
+rule fasta_to_csvs:
+    input:
+        config['bigsi_refseq']+"/{reference}.fa"
+    output:
+        config['outdir']+"/{prefix}/intermediate_files/{reference}.csv",
+        config['outdir']+"/{prefix}/intermediate_files/{reference}_URLs.txt"
+    conda:
+        "config_files/BIGSIlord.yaml"
+    threads:
+        maxthreads
+    shell:
+        """
+        python fasta2csv.py {input} {output[0]}
+        python fasta_url_base.py {input} {output[1]}
+        perl -p -i -e 's/.*_/CDS_/g' {output[1]}
+        """
+
+rule url_to_json:
+    input:
+        config['outdir']+"/{prefix}/intermediate_files/{reference}_URLs.txt"
+    output:
+        directory(config['outdir']+"/{prefix}/jsons/{reference}")
+    conda:
+        "config/BIGSIlord.yaml"
+    params:
+        ref = config['outdir']+"/{prefix}/jsons/{reference}"
+    threads:
+        maxthreads
+    shell:
+        """
+        mkdir -p {params.ref}
+        parallel -a {input} -j0 -C ", *" 'wget -q -O {{1}} {{2}}'
+        for f in CDS*; do mv $f {params.ref}/${{f}}.json; done
+        """
+
+
+rule json_multi:
+    input:
+        directory(config['outdir']+"/{prefix}/jsons/{reference}")
+    output:
+        config['outdir']+"/{prefix}/csv/{reference}.dummy"
+    conda:
+        "config/BIGSIlord.yaml"
+    params:
+        config['outdir']+"/{prefix}/jsons/"
+    threads:
+        maxthreads
+    shell:
+        """
+        touch {output}
+        python Convert_json.py {input} {wildcards.reference}
+        """
+
+
+
