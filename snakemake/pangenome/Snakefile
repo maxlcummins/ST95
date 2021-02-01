@@ -1,0 +1,55 @@
+import re
+import os
+
+configfile: "/projects/AusGEM/Users/Max/Manuscripts/ST95/snakemake/masterconfigs/masterconfig_ST95_all.yaml"
+
+prefix = config['prefix']
+maxthreads = snakemake.utils.available_cpu_count()
+sample_ids, = glob_wildcards(config['assemblies']+"/{sample}.fasta")
+
+print(str(config['roary_core_req']))
+
+print(sample_ids)
+
+rule all:
+    input:
+        expand(config['outdir'] +
+               "/{prefix}/pangenome/gffs/{sample}.gff", sample=sample_ids, prefix=prefix),
+        config['outdir']+"/"+config['prefix']+"/pangenome/roary_"+str(config['roary_core_req'])
+
+
+rule prokka:
+    input:
+        config['assemblies']+"/{sample}.fasta"
+    output:
+        config['outdir']+"/{prefix}/pangenome/gffs/{sample}.gff"
+    conda:
+        "config/prokka.yaml"
+    #log:
+        #config['outdir']+"/{prefix}/prokka/logs/{sample}.log"
+    params:
+        out = config['outdir']+"/{prefix}/pangenome/prokka",
+        genus = config['genus']
+    shell:
+        """
+        prokka --cpus 5 {params.genus} --outdir {params.out}/{wildcards.sample} {input}
+        cp {params.out}/{wildcards.sample}/*.gff {output}
+        """
+
+rule roary:
+    input:
+        expand(config['outdir']+"/{prefix}/pangenome/gffs/{sample}.gff", sample=sample_ids, prefix=prefix)
+    output:
+        directory(config['outdir']+"/{prefix}/pangenome/roary_"+str(config['roary_core_req']))
+    conda:
+        "config/roary.yaml"
+    threads:
+        maxthreads
+#    log:
+#        "roary/logs/roary.log"
+    params:
+        out = config['outdir']+"/{prefix}/pangenome/roary_"+str(config['roary_core_req']),
+        threads = maxthreads,
+        core_req = config['roary_core_req']
+    shell:
+        "roary -e -n -r -cd {params.core_req} -p {params.threads} -f {params.out} {input}"
