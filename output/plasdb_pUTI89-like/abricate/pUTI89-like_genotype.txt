@@ -1,0 +1,793 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_0011749.1.fasta	NC_011749.1	43550	44755	-	tet(B)	1-1206/1206	===============	0/0	100.00	99.75	card	AB089595:1-1207	Tet(B) is a tetracycline efflux protein expressed in many Gram-negative bacteria. It confers resistance to tetracycline doxycycline and minocycline but not tigecycline.	rhodamine/peptide/fluoroquinolone/cephalosporin/tetracycline/acridine_dye/oxazolidinone/fosfomycin/phenicol/glycylcycline/benzalkonium_chloride/isoniazid/lincosamide/antibacterial_free_fatty_acids/bicyclomycin/diaminopyrimidine/penam/macrolide/nitroimidazole/rifamycin/nucleoside
+NC_0011749.1.fasta	NC_011749.1	47524	47787	-	Shigella_flexneri_chloramphenicol_acetyltransferase	237-500/660	.....=======...	0/0	40.00	100.00	card	KF030445.1:23980-24640	A chloramphenicol acetyltransferase and chloramphenicol resistance determinant described in Shigella flexneri	phenicol
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP010882.1.fasta	NZ_CP010882.1	67585	68445	+	TEM-1	1-861/861	===============	0/0	100.00	99.88	card	AL513383:161911-162772	TEM-1 is a broad-spectrum beta-lactamase found in many Gram-negative bacteria. Confers resistance to penicillins and first generation cephalosphorins.	penam/cephalosporin/penem/monobactam
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014493.1.fasta	NZ_CP014493.1	112065	112313	+	AAC(6')-Ib7	1-249/980	====...........	0/0	25.41	99.60	card	Y11946.1:1-981	AAC(6')-Ib7 is a plasmid-encoded aminoglycoside acetyltransferase in E. cloacae and C. freundii	aminoglycoside
+NZ_CP014493.1.fasta	NZ_CP014493.1	112327	112800	+	dfrA17	1-474/474	===============	0/0	100.00	100.00	card	DQ838665:1-475	dfrA17 is an integron-encoded dihydrofolate reductase found in Escherichia coli	diaminopyrimidine
+NZ_CP014493.1.fasta	NZ_CP014493.1	112931	113719	+	aadA5	1-789/789	===============	0/0	100.00	100.00	card	AF137361:64-853	aadA5 is an aminoglycoside nucleotidyltransferase gene encoded by plasmids transposons and integrons in E. coli K. pneumoniae Kluyvera georgiana P. aeruginosa and E. cloacae	aminoglycoside
+NZ_CP014493.1.fasta	NZ_CP014493.1	114266	115105	+	sul1	1-840/840	===============	0/0	100.00	100.00	card	JF969163:1054-1894	Sul1 is a sulfonamide resistant dihydropteroate synthase of Gram-negative bacteria. It is linked to other resistance genes of class 1 integrons.	sulfonamide
+NZ_CP014493.1.fasta	NZ_CP014493.1	120415	121319	-	mphA	1-906/906	========/======	1/1	99.89	99.89	card	D16251.1:1626-2532	The mphA gene encodes for resistance enzyme MPH(2')-I which preferentially inactivate 14-membered macrolides (e.g.erythromycin telithromycin roxithromycin) over 16-membered macrolides (e.g.tylosin spiramycin). It phosphorylates macrolides at 2'-OH hydroxyl of desosamine sugar of macrolides in a GTP-dependent manner.	macrolide
+NZ_CP014493.1.fasta	NZ_CP014493.1	122444	123304	+	TEM-1	1-861/861	===============	0/0	100.00	99.88	card	AL513383:161911-162772	TEM-1 is a broad-spectrum beta-lactamase found in many Gram-negative bacteria. Confers resistance to penicillins and first generation cephalosphorins.	penam/cephalosporin/penem/monobactam
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014498.1.fasta	NZ_CP014498.1	125188	125436	+	AAC(6')-Ib7	1-249/980	====...........	0/0	25.41	99.60	card	Y11946.1:1-981	AAC(6')-Ib7 is a plasmid-encoded aminoglycoside acetyltransferase in E. cloacae and C. freundii	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	125450	125923	+	dfrA17	1-474/474	===============	0/0	100.00	100.00	card	DQ838665:1-475	dfrA17 is an integron-encoded dihydrofolate reductase found in Escherichia coli	diaminopyrimidine
+NZ_CP014498.1.fasta	NZ_CP014498.1	126054	126842	+	aadA5	1-789/789	===============	0/0	100.00	100.00	card	AF137361:64-853	aadA5 is an aminoglycoside nucleotidyltransferase gene encoded by plasmids transposons and integrons in E. coli K. pneumoniae Kluyvera georgiana P. aeruginosa and E. cloacae	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	127389	128228	+	sul1	1-840/840	===============	0/0	100.00	100.00	card	JF969163:1054-1894	Sul1 is a sulfonamide resistant dihydropteroate synthase of Gram-negative bacteria. It is linked to other resistance genes of class 1 integrons.	sulfonamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	133539	134444	-	mphA	1-906/906	===============	0/0	100.00	100.00	card	D16251.1:1626-2532	The mphA gene encodes for resistance enzyme MPH(2')-I which preferentially inactivate 14-membered macrolides (e.g.erythromycin telithromycin roxithromycin) over 16-membered macrolides (e.g.tylosin spiramycin). It phosphorylates macrolides at 2'-OH hydroxyl of desosamine sugar of macrolides in a GTP-dependent manner.	macrolide
+NZ_CP014498.1.fasta	NZ_CP014498.1	135815	136629	+	sul2	1-816/816	========/======	1/1	99.88	99.88	card	AY055428.1:20269-21085	Sul2 is a sulfonamide resistant dihydropteroate synthase of Gram-negative bacteria usually found on small plasmids.	sulfonamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	136690	137493	+	APH(3'')-Ib	1-804/804	===============	0/0	100.00	99.75	card	AF313472:15594-16398	APH(3'')-Ib is an aminoglycoside phosphotransferase encoded by plasmids transposons integrative conjugative elements and chromosomes in Enterobacteriaceae and Pseudomonas spp.	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	137493	138329	+	APH(6)-Id	1-837/837	===============	0/0	100.00	99.76	card	AF024602:3156-3993	APH(6)-Id is an aminoglycoside phosphotransferase encoded by plasmids integrative conjugative elements and chromosomal genomic islands in K. pneumoniae Salmonella spp. E. coli Shigella flexneri Providencia alcalifaciens Pseudomonas spp. V. cholerae Edwardsiella tarda Pasteurella multocida and Aeromonas bestiarum	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	139308	140554	+	tet(A)	1-1247/1275	===============	0/0	97.80	100.00	card	AF534183.1:2971-4246	TetA is a tetracycline efflux pump found in many species of Gram-negative bacteria.	phenicol/glycylcycline/fosfomycin/tetracycline/oxazolidinone/acridine_dye/fluoroquinolone/cephalosporin/peptide/rhodamine/nucleoside/nitroimidazole/rifamycin/penam/macrolide/diaminopyrimidine/antibacterial_free_fatty_acids/bicyclomycin/benzalkonium_chloride/isoniazid/lincosamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	142878	143126	+	AAC(6')-Ib7	1-249/980	====...........	0/0	25.41	99.60	card	Y11946.1:1-981	AAC(6')-Ib7 is a plasmid-encoded aminoglycoside acetyltransferase in E. cloacae and C. freundii	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	143140	143613	+	dfrA17	1-474/474	===============	0/0	100.00	100.00	card	DQ838665:1-475	dfrA17 is an integron-encoded dihydrofolate reductase found in Escherichia coli	diaminopyrimidine
+NZ_CP014498.1.fasta	NZ_CP014498.1	143744	144532	+	aadA5	1-789/789	===============	0/0	100.00	100.00	card	AF137361:64-853	aadA5 is an aminoglycoside nucleotidyltransferase gene encoded by plasmids transposons and integrons in E. coli K. pneumoniae Kluyvera georgiana P. aeruginosa and E. cloacae	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	145079	145917	+	sul1	1-840/840	========/======	1/1	99.88	99.88	card	JF969163:1054-1894	Sul1 is a sulfonamide resistant dihydropteroate synthase of Gram-negative bacteria. It is linked to other resistance genes of class 1 integrons.	sulfonamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	151228	152133	-	mphA	1-906/906	===============	0/0	100.00	100.00	card	D16251.1:1626-2532	The mphA gene encodes for resistance enzyme MPH(2')-I which preferentially inactivate 14-membered macrolides (e.g.erythromycin telithromycin roxithromycin) over 16-membered macrolides (e.g.tylosin spiramycin). It phosphorylates macrolides at 2'-OH hydroxyl of desosamine sugar of macrolides in a GTP-dependent manner.	macrolide
+NZ_CP014498.1.fasta	NZ_CP014498.1	153503	154318	+	sul2	1-816/816	===============	0/0	100.00	100.00	card	AY055428.1:20269-21085	Sul2 is a sulfonamide resistant dihydropteroate synthase of Gram-negative bacteria usually found on small plasmids.	sulfonamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	154379	155181	+	APH(3'')-Ib	1-804/804	========/======	1/1	99.88	99.63	card	AF313472:15594-16398	APH(3'')-Ib is an aminoglycoside phosphotransferase encoded by plasmids transposons integrative conjugative elements and chromosomes in Enterobacteriaceae and Pseudomonas spp.	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	155181	156017	+	APH(6)-Id	1-837/837	===============	0/0	100.00	99.76	card	AF024602:3156-3993	APH(6)-Id is an aminoglycoside phosphotransferase encoded by plasmids integrative conjugative elements and chromosomal genomic islands in K. pneumoniae Salmonella spp. E. coli Shigella flexneri Providencia alcalifaciens Pseudomonas spp. V. cholerae Edwardsiella tarda Pasteurella multocida and Aeromonas bestiarum	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	156996	158242	+	tet(A)	1-1247/1275	===============	0/0	97.80	100.00	card	AF534183.1:2971-4246	TetA is a tetracycline efflux pump found in many species of Gram-negative bacteria.	phenicol/glycylcycline/fosfomycin/tetracycline/oxazolidinone/acridine_dye/fluoroquinolone/cephalosporin/peptide/rhodamine/nucleoside/nitroimidazole/rifamycin/penam/macrolide/diaminopyrimidine/antibacterial_free_fatty_acids/bicyclomycin/benzalkonium_chloride/isoniazid/lincosamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	160566	160814	+	AAC(6')-Ib7	1-249/980	====...........	0/0	25.41	99.60	card	Y11946.1:1-981	AAC(6')-Ib7 is a plasmid-encoded aminoglycoside acetyltransferase in E. cloacae and C. freundii	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	160828	161301	+	dfrA17	1-474/474	===============	0/0	100.00	100.00	card	DQ838665:1-475	dfrA17 is an integron-encoded dihydrofolate reductase found in Escherichia coli	diaminopyrimidine
+NZ_CP014498.1.fasta	NZ_CP014498.1	161432	162220	+	aadA5	1-789/789	===============	0/0	100.00	100.00	card	AF137361:64-853	aadA5 is an aminoglycoside nucleotidyltransferase gene encoded by plasmids transposons and integrons in E. coli K. pneumoniae Kluyvera georgiana P. aeruginosa and E. cloacae	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	162767	163606	+	sul1	1-840/840	===============	0/0	100.00	100.00	card	JF969163:1054-1894	Sul1 is a sulfonamide resistant dihydropteroate synthase of Gram-negative bacteria. It is linked to other resistance genes of class 1 integrons.	sulfonamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	168892	169792	-	mphA	1-906/906	========/======	6/7	99.34	99.23	card	D16251.1:1626-2532	The mphA gene encodes for resistance enzyme MPH(2')-I which preferentially inactivate 14-membered macrolides (e.g.erythromycin telithromycin roxithromycin) over 16-membered macrolides (e.g.tylosin spiramycin). It phosphorylates macrolides at 2'-OH hydroxyl of desosamine sugar of macrolides in a GTP-dependent manner.	macrolide
+NZ_CP014498.1.fasta	NZ_CP014498.1	171100	171856	+	sul2	59-816/816	.=======/======	1/1	92.77	99.87	card	AY055428.1:20269-21085	Sul2 is a sulfonamide resistant dihydropteroate synthase of Gram-negative bacteria usually found on small plasmids.	sulfonamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	171917	172718	+	APH(3'')-Ib	1-804/804	========/======	1/2	99.75	99.50	card	AF313472:15594-16398	APH(3'')-Ib is an aminoglycoside phosphotransferase encoded by plasmids transposons integrative conjugative elements and chromosomes in Enterobacteriaceae and Pseudomonas spp.	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	172718	173559	+	APH(6)-Id	1-837/837	========/======	12/15	99.40	97.88	card	AF024602:3156-3993	APH(6)-Id is an aminoglycoside phosphotransferase encoded by plasmids integrative conjugative elements and chromosomal genomic islands in K. pneumoniae Salmonella spp. E. coli Shigella flexneri Providencia alcalifaciens Pseudomonas spp. V. cholerae Edwardsiella tarda Pasteurella multocida and Aeromonas bestiarum	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	174539	175777	+	tet(A)	1-1247/1275	========/======	18/20	96.71	98.32	card	AF534183.1:2971-4246	TetA is a tetracycline efflux pump found in many species of Gram-negative bacteria.	phenicol/glycylcycline/fosfomycin/tetracycline/oxazolidinone/acridine_dye/fluoroquinolone/cephalosporin/peptide/rhodamine/nucleoside/nitroimidazole/rifamycin/penam/macrolide/diaminopyrimidine/antibacterial_free_fatty_acids/bicyclomycin/benzalkonium_chloride/isoniazid/lincosamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	178098	178346	+	AAC(6')-Ib7	1-249/980	====...........	0/0	25.41	99.60	card	Y11946.1:1-981	AAC(6')-Ib7 is a plasmid-encoded aminoglycoside acetyltransferase in E. cloacae and C. freundii	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	178361	178841	+	dfrA17	1-474/474	========/======	6/9	99.79	97.51	card	DQ838665:1-475	dfrA17 is an integron-encoded dihydrofolate reductase found in Escherichia coli	diaminopyrimidine
+NZ_CP014498.1.fasta	NZ_CP014498.1	178972	179755	+	aadA5	1-789/789	========/======	6/7	99.24	99.11	card	AF137361:64-853	aadA5 is an aminoglycoside nucleotidyltransferase gene encoded by plasmids transposons and integrons in E. coli K. pneumoniae Kluyvera georgiana P. aeruginosa and E. cloacae	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	180302	181140	+	sul1	1-840/840	========/======	5/5	99.64	99.41	card	JF969163:1054-1894	Sul1 is a sulfonamide resistant dihydropteroate synthase of Gram-negative bacteria. It is linked to other resistance genes of class 1 integrons.	sulfonamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	186449	187354	-	mphA	1-906/906	===============	0/0	100.00	100.00	card	D16251.1:1626-2532	The mphA gene encodes for resistance enzyme MPH(2')-I which preferentially inactivate 14-membered macrolides (e.g.erythromycin telithromycin roxithromycin) over 16-membered macrolides (e.g.tylosin spiramycin). It phosphorylates macrolides at 2'-OH hydroxyl of desosamine sugar of macrolides in a GTP-dependent manner.	macrolide
+NZ_CP014498.1.fasta	NZ_CP014498.1	188725	189540	+	sul2	1-816/816	===============	0/0	100.00	100.00	card	AY055428.1:20269-21085	Sul2 is a sulfonamide resistant dihydropteroate synthase of Gram-negative bacteria usually found on small plasmids.	sulfonamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	189601	190404	+	APH(3'')-Ib	1-804/804	===============	0/0	100.00	99.75	card	AF313472:15594-16398	APH(3'')-Ib is an aminoglycoside phosphotransferase encoded by plasmids transposons integrative conjugative elements and chromosomes in Enterobacteriaceae and Pseudomonas spp.	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	190404	191240	+	APH(6)-Id	1-837/837	===============	0/0	100.00	99.76	card	AF024602:3156-3993	APH(6)-Id is an aminoglycoside phosphotransferase encoded by plasmids integrative conjugative elements and chromosomal genomic islands in K. pneumoniae Salmonella spp. E. coli Shigella flexneri Providencia alcalifaciens Pseudomonas spp. V. cholerae Edwardsiella tarda Pasteurella multocida and Aeromonas bestiarum	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	192219	193465	+	tet(A)	1-1247/1275	===============	0/0	97.80	100.00	card	AF534183.1:2971-4246	TetA is a tetracycline efflux pump found in many species of Gram-negative bacteria.	phenicol/glycylcycline/fosfomycin/tetracycline/oxazolidinone/acridine_dye/fluoroquinolone/cephalosporin/peptide/rhodamine/nucleoside/nitroimidazole/rifamycin/penam/macrolide/diaminopyrimidine/antibacterial_free_fatty_acids/bicyclomycin/benzalkonium_chloride/isoniazid/lincosamide
+NZ_CP014498.1.fasta	NZ_CP014498.1	201873	202733	+	AAC(3)-IId	1-861/861	===============	0/0	100.00	99.88	card	EU022314.1:1-862	AAC(3)-IId is a plasmid-encoded aminoglycoside acetyltransferase in E. coli	aminoglycoside
+NZ_CP014498.1.fasta	NZ_CP014498.1	203905	204765	+	TEM-1	1-861/861	===============	0/0	100.00	99.88	card	AL513383:161911-162772	TEM-1 is a broad-spectrum beta-lactamase found in many Gram-negative bacteria. Confers resistance to penicillins and first generation cephalosphorins.	penam/cephalosporin/penem/monobactam
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015131.1.fasta	NZ_CP015131.1	95811	97016	-	tet(B)	1-1206/1206	===============	0/0	100.00	99.75	card	AB089595:1-1207	Tet(B) is a tetracycline efflux protein expressed in many Gram-negative bacteria. It confers resistance to tetracycline doxycycline and minocycline but not tigecycline.	rhodamine/peptide/fluoroquinolone/cephalosporin/tetracycline/acridine_dye/oxazolidinone/fosfomycin/phenicol/glycylcycline/benzalkonium_chloride/isoniazid/lincosamide/antibacterial_free_fatty_acids/bicyclomycin/diaminopyrimidine/penam/macrolide/nitroimidazole/rifamycin/nucleoside
+NZ_CP015131.1.fasta	NZ_CP015131.1	106472	107377	-	mphA	1-906/906	===============	0/0	100.00	100.00	card	D16251.1:1626-2532	The mphA gene encodes for resistance enzyme MPH(2')-I which preferentially inactivate 14-membered macrolides (e.g.erythromycin telithromycin roxithromycin) over 16-membered macrolides (e.g.tylosin spiramycin). It phosphorylates macrolides at 2'-OH hydroxyl of desosamine sugar of macrolides in a GTP-dependent manner.	macrolide
+NZ_CP015131.1.fasta	NZ_CP015131.1	110843	111748	-	mphA	1-906/906	===============	0/0	100.00	100.00	card	D16251.1:1626-2532	The mphA gene encodes for resistance enzyme MPH(2')-I which preferentially inactivate 14-membered macrolides (e.g.erythromycin telithromycin roxithromycin) over 16-membered macrolides (e.g.tylosin spiramycin). It phosphorylates macrolides at 2'-OH hydroxyl of desosamine sugar of macrolides in a GTP-dependent manner.	macrolide
+NZ_CP015131.1.fasta	NZ_CP015131.1	115214	116119	-	mphA	1-906/906	===============	0/0	100.00	100.00	card	D16251.1:1626-2532	The mphA gene encodes for resistance enzyme MPH(2')-I which preferentially inactivate 14-membered macrolides (e.g.erythromycin telithromycin roxithromycin) over 16-membered macrolides (e.g.tylosin spiramycin). It phosphorylates macrolides at 2'-OH hydroxyl of desosamine sugar of macrolides in a GTP-dependent manner.	macrolide
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015160.1.fasta	NZ_CP015160.1	43098	43346	+	AAC(6')-Ib7	1-249/980	====...........	0/0	25.41	99.60	card	Y11946.1:1-981	AAC(6')-Ib7 is a plasmid-encoded aminoglycoside acetyltransferase in E. cloacae and C. freundii	aminoglycoside
+NZ_CP015160.1.fasta	NZ_CP015160.1	43360	43833	+	dfrA17	1-474/474	===============	0/0	100.00	100.00	card	DQ838665:1-475	dfrA17 is an integron-encoded dihydrofolate reductase found in Escherichia coli	diaminopyrimidine
+NZ_CP015160.1.fasta	NZ_CP015160.1	43964	44752	+	aadA5	1-789/789	===============	0/0	100.00	100.00	card	AF137361:64-853	aadA5 is an aminoglycoside nucleotidyltransferase gene encoded by plasmids transposons and integrons in E. coli K. pneumoniae Kluyvera georgiana P. aeruginosa and E. cloacae	aminoglycoside
+NZ_CP015160.1.fasta	NZ_CP015160.1	45299	46138	+	sul1	1-840/840	===============	0/0	100.00	100.00	card	JF969163:1054-1894	Sul1 is a sulfonamide resistant dihydropteroate synthase of Gram-negative bacteria. It is linked to other resistance genes of class 1 integrons.	sulfonamide
+NZ_CP015160.1.fasta	NZ_CP015160.1	51449	52354	-	mphA	1-906/906	===============	0/0	100.00	100.00	card	D16251.1:1626-2532	The mphA gene encodes for resistance enzyme MPH(2')-I which preferentially inactivate 14-membered macrolides (e.g.erythromycin telithromycin roxithromycin) over 16-membered macrolides (e.g.tylosin spiramycin). It phosphorylates macrolides at 2'-OH hydroxyl of desosamine sugar of macrolides in a GTP-dependent manner.	macrolide
+NZ_CP015160.1.fasta	NZ_CP015160.1	53725	54540	+	sul2	1-816/816	===============	0/0	100.00	100.00	card	AY055428.1:20269-21085	Sul2 is a sulfonamide resistant dihydropteroate synthase of Gram-negative bacteria usually found on small plasmids.	sulfonamide
+NZ_CP015160.1.fasta	NZ_CP015160.1	54601	55404	+	APH(3'')-Ib	1-804/804	===============	0/0	100.00	99.75	card	AF313472:15594-16398	APH(3'')-Ib is an aminoglycoside phosphotransferase encoded by plasmids transposons integrative conjugative elements and chromosomes in Enterobacteriaceae and Pseudomonas spp.	aminoglycoside
+NZ_CP015160.1.fasta	NZ_CP015160.1	55404	56240	+	APH(6)-Id	1-837/837	===============	0/0	100.00	99.76	card	AF024602:3156-3993	APH(6)-Id is an aminoglycoside phosphotransferase encoded by plasmids integrative conjugative elements and chromosomal genomic islands in K. pneumoniae Salmonella spp. E. coli Shigella flexneri Providencia alcalifaciens Pseudomonas spp. V. cholerae Edwardsiella tarda Pasteurella multocida and Aeromonas bestiarum	aminoglycoside
+NZ_CP015160.1.fasta	NZ_CP015160.1	57219	58465	+	tet(A)	1-1247/1275	===============	0/0	97.80	100.00	card	AF534183.1:2971-4246	TetA is a tetracycline efflux pump found in many species of Gram-negative bacteria.	phenicol/glycylcycline/fosfomycin/tetracycline/oxazolidinone/acridine_dye/fluoroquinolone/cephalosporin/peptide/rhodamine/nucleoside/nitroimidazole/rifamycin/penam/macrolide/diaminopyrimidine/antibacterial_free_fatty_acids/bicyclomycin/benzalkonium_chloride/isoniazid/lincosamide
+NZ_CP015160.1.fasta	NZ_CP015160.1	67488	68161	+	AAC(3)-IId	1-674/861	============...	0/0	78.28	100.00	card	EU022314.1:1-862	AAC(3)-IId is a plasmid-encoded aminoglycoside acetyltransferase in E. coli	aminoglycoside
+NZ_CP015160.1.fasta	NZ_CP015160.1	69217	70077	+	TEM-1	1-861/861	===============	0/0	100.00	99.88	card	AL513383:161911-162772	TEM-1 is a broad-spectrum beta-lactamase found in many Gram-negative bacteria. Confers resistance to penicillins and first generation cephalosphorins.	penam/cephalosporin/penem/monobactam
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_0011749.1.fasta	NC_011749.1	40090	40211	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_007941.1.fasta	NC_007941.1	3939	4060	-	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_013175.1.fasta	NC_013175.1	3939	4060	-	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_013655.1.fasta	NC_013655.1	54989	55110	-	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_017630.1.fasta	NC_017630.1	110366	110487	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP007150.1.fasta	NZ_CP007150.1	3939	4060	-	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP010882.1.fasta	NZ_CP010882.1	66530	66651	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP010882.1.fasta	NZ_CP010882.1	76852	76973	-	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP010882.1.fasta	NZ_CP010882.1	118355	118476	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP010882.1.fasta	NZ_CP010882.1	119002	119124	+	gb|CP014489.1|:130176-132039	1742-1864/1864	..............=	0/0	6.60	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP012634.1.fasta	NZ_CP012634.1	27986	28107	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014493.1.fasta	NZ_CP014493.1	109313	109434	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014493.1.fasta	NZ_CP014493.1	110604	110726	+	gb|CP014489.1|:130176-132039	1742-1864/1864	..............=	0/0	6.60	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014493.1.fasta	NZ_CP014493.1	111421	112511	+	gb|CP014489.1|:130176-132039	266-1354/1864	.=======/===...	2/6	58.32	93.69	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014493.1.fasta	NZ_CP014493.1	121389	121510	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014496.1.fasta	NZ_CP014496.1	28842	28963	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014498.1.fasta	NZ_CP014498.1	48471	48592	-	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	122435	122556	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	123727	123849	+	gb|CP014489.1|:130176-132039	1742-1864/1864	..............=	0/0	6.60	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	124544	125634	+	gb|CP014489.1|:130176-132039	266-1354/1864	.=======/===...	2/6	58.32	93.69	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	134514	134635	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	141418	141539	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	142234	143324	+	gb|CP014489.1|:130176-132039	266-1354/1864	.=======/===...	2/6	58.32	93.69	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	152203	152324	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	159106	159227	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	159922	161012	+	gb|CP014489.1|:130176-132039	266-1354/1864	.=======/===...	2/6	58.32	93.69	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	169861	169982	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	176639	176760	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	177455	178483	+	gb|CP014489.1|:130176-132039	266-1291/1864	.=======/==....	6/11	54.83	95.06	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	187424	187545	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	194329	194450	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	199731	199852	-	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP014498.1.fasta	NZ_CP014498.1	202850	202971	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014523.1.fasta	NZ_CP014523.1	111557	111678	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014668.1.fasta	NZ_CP014668.1	3939	4060	-	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015131.1.fasta	NZ_CP015131.1	93592	93713	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP015131.1.fasta	NZ_CP015131.1	103075	103197	+	gb|CP014489.1|:130176-132039	1742-1864/1864	..............=	0/0	6.60	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP015131.1.fasta	NZ_CP015131.1	107447	107568	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP015131.1.fasta	NZ_CP015131.1	111818	111939	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP015131.1.fasta	NZ_CP015131.1	116189	116310	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015160.1.fasta	NZ_CP015160.1	40345	40466	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP015160.1.fasta	NZ_CP015160.1	41637	41759	+	gb|CP014489.1|:130176-132039	1742-1864/1864	..............=	0/0	6.60	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP015160.1.fasta	NZ_CP015160.1	42454	43544	+	gb|CP014489.1|:130176-132039	266-1354/1864	.=======/===...	2/6	58.32	93.69	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP015160.1.fasta	NZ_CP015160.1	52424	52545	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP015160.1.fasta	NZ_CP015160.1	59795	59916	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP015160.1.fasta	NZ_CP015160.1	65250	65371	-	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP015160.1.fasta	NZ_CP015160.1	68162	68283	+	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP018952.1.fasta	NZ_CP018952.1	122745	122866	-	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+NZ_CP018952.1.fasta	NZ_CP018952.1	123780	123901	-	gb|CP014489.1|:130176-132039	1743-1864/1864	..............=	0/0	6.55	100.00	dfrA5_848		gb|CP014489.1|:130176-132039 Escherichia coli strain G749 plasmid pG749_1 complete sequence	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_0011749.1.fasta	NC_011749.1	17680	18954	-	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NC_0011749.1.fasta	NC_011749.1	18924	21185	-	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NC_0011749.1.fasta	NC_011749.1	21354	22130	-	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NC_0011749.1.fasta	NC_011749.1	22138	23013	-	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NC_0011749.1.fasta	NC_011749.1	65516	66247	-	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_007941.1.fasta	NC_007941.1	21105	21980	+	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NC_007941.1.fasta	NC_007941.1	21988	22764	+	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NC_007941.1.fasta	NC_007941.1	22933	25194	+	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NC_007941.1.fasta	NC_007941.1	25164	26438	+	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NC_007941.1.fasta	NC_007941.1	101407	102138	+	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_013175.1.fasta	NC_013175.1	21105	21980	+	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NC_013175.1.fasta	NC_013175.1	21988	22764	+	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NC_013175.1.fasta	NC_013175.1	22933	25194	+	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NC_013175.1.fasta	NC_013175.1	25164	26438	+	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NC_013175.1.fasta	NC_013175.1	101399	102130	+	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_013655.1.fasta	NC_013655.1	30561	31292	+	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+NC_013655.1.fasta	NC_013655.1	72155	73030	+	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NC_013655.1.fasta	NC_013655.1	73038	73814	+	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NC_013655.1.fasta	NC_013655.1	73983	76244	+	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NC_013655.1.fasta	NC_013655.1	76214	77488	+	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_017630.1.fasta	NC_017630.1	12292	13023	-	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+NC_017630.1.fasta	NC_017630.1	87990	89264	-	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NC_017630.1.fasta	NC_017630.1	89234	91495	-	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NC_017630.1.fasta	NC_017630.1	91664	92440	-	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NC_017630.1.fasta	NC_017630.1	92448	93323	-	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP007150.1.fasta	NZ_CP007150.1	21106	21981	+	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NZ_CP007150.1.fasta	NZ_CP007150.1	21989	22765	+	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NZ_CP007150.1.fasta	NZ_CP007150.1	22934	25195	+	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NZ_CP007150.1.fasta	NZ_CP007150.1	25165	26439	+	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NZ_CP007150.1.fasta	NZ_CP007150.1	101405	102136	+	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP010882.1.fasta	NZ_CP010882.1	53920	54651	+	traT_CP018978.1	1-732/732	===============	0/0	100.00	99.04	EC_custom		traT_CP018978.1	
+NZ_CP010882.1.fasta	NZ_CP010882.1	95945	97219	-	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NZ_CP010882.1.fasta	NZ_CP010882.1	97189	99450	-	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NZ_CP010882.1.fasta	NZ_CP010882.1	99619	100395	-	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NZ_CP010882.1.fasta	NZ_CP010882.1	100403	101278	-	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP012634.1.fasta	NZ_CP012634.1	6507	7382	+	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NZ_CP012634.1.fasta	NZ_CP012634.1	7390	8166	+	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NZ_CP012634.1.fasta	NZ_CP012634.1	8335	10596	+	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NZ_CP012634.1.fasta	NZ_CP012634.1	10566	11840	+	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	99.92	EC_custom		senB_pUTI89_NC_007941	
+NZ_CP012634.1.fasta	NZ_CP012634.1	44138	44869	-	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014493.1.fasta	NZ_CP014493.1	13656	14387	-	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+NZ_CP014493.1.fasta	NZ_CP014493.1	86910	88184	-	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NZ_CP014493.1.fasta	NZ_CP014493.1	88154	90415	-	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NZ_CP014493.1.fasta	NZ_CP014493.1	90584	91360	-	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NZ_CP014493.1.fasta	NZ_CP014493.1	91368	92243	-	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NZ_CP014493.1.fasta	NZ_CP014493.1	111421	112169	+	intI1_HQ730118.1	266-1014/1014	...=====/======	2/2	73.77	99.33	EC_custom		intI1_HQ730118.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014496.1.fasta	NZ_CP014496.1	7364	8239	+	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NZ_CP014496.1.fasta	NZ_CP014496.1	8247	9023	+	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NZ_CP014496.1.fasta	NZ_CP014496.1	9192	11453	+	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NZ_CP014496.1.fasta	NZ_CP014496.1	11423	12697	+	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	99.92	EC_custom		senB_pUTI89_NC_007941	
+NZ_CP014496.1.fasta	NZ_CP014496.1	44994	45725	-	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014498.1.fasta	NZ_CP014498.1	14600	15331	-	traT_CP018978.1	1-732/732	===============	0/0	100.00	99.04	EC_custom		traT_CP018978.1	
+NZ_CP014498.1.fasta	NZ_CP014498.1	100025	101299	-	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NZ_CP014498.1.fasta	NZ_CP014498.1	101269	103530	-	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NZ_CP014498.1.fasta	NZ_CP014498.1	103699	104475	-	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NZ_CP014498.1.fasta	NZ_CP014498.1	104483	105358	-	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NZ_CP014498.1.fasta	NZ_CP014498.1	124544	125292	+	intI1_HQ730118.1	266-1014/1014	...=====/======	2/2	73.77	99.33	EC_custom		intI1_HQ730118.1	
+NZ_CP014498.1.fasta	NZ_CP014498.1	142234	142982	+	intI1_HQ730118.1	266-1014/1014	...=====/======	2/2	73.77	99.33	EC_custom		intI1_HQ730118.1	
+NZ_CP014498.1.fasta	NZ_CP014498.1	159922	160670	+	intI1_HQ730118.1	266-1014/1014	...=====/======	2/2	73.77	99.33	EC_custom		intI1_HQ730118.1	
+NZ_CP014498.1.fasta	NZ_CP014498.1	177455	178202	+	intI1_HQ730118.1	266-1014/1014	...=====/======	3/3	73.67	99.20	EC_custom		intI1_HQ730118.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014523.1.fasta	NZ_CP014523.1	13485	14216	-	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+NZ_CP014523.1.fasta	NZ_CP014523.1	89181	90455	-	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NZ_CP014523.1.fasta	NZ_CP014523.1	90425	92686	-	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NZ_CP014523.1.fasta	NZ_CP014523.1	92855	93631	-	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NZ_CP014523.1.fasta	NZ_CP014523.1	93639	94514	-	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014668.1.fasta	NZ_CP014668.1	88378	89109	+	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015131.1.fasta	NZ_CP015131.1	71182	72456	-	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NZ_CP015131.1.fasta	NZ_CP015131.1	72426	74687	-	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NZ_CP015131.1.fasta	NZ_CP015131.1	74856	75632	-	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NZ_CP015131.1.fasta	NZ_CP015131.1	75640	76515	-	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NZ_CP015131.1.fasta	NZ_CP015131.1	119652	121346	-	merA_CP022086.1	1-1695/1695	===============	0/0	100.00	100.00	EC_custom		merA_CP022086.1	
+NZ_CP015131.1.fasta	NZ_CP015131.1	140777	141508	-	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015160.1.fasta	NZ_CP015160.1	17158	18432	-	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NZ_CP015160.1.fasta	NZ_CP015160.1	18402	20663	-	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NZ_CP015160.1.fasta	NZ_CP015160.1	20832	20962	-	cjrB_pUTI89_NC_007941	647-777/777	............===	0/0	16.86	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NZ_CP015160.1.fasta	NZ_CP015160.1	21731	22385	-	cjrB_pUTI89_NC_007941	1-655/777	=============..	0/0	84.30	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NZ_CP015160.1.fasta	NZ_CP015160.1	22393	23268	-	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NZ_CP015160.1.fasta	NZ_CP015160.1	42454	43202	+	intI1_HQ730118.1	266-1014/1014	...=====/======	2/2	73.77	99.33	EC_custom		intI1_HQ730118.1	
+NZ_CP015160.1.fasta	NZ_CP015160.1	88681	89412	-	traT_CP018978.1	1-732/732	===============	0/0	100.00	98.63	EC_custom		traT_CP018978.1	
+NZ_CP015160.1.fasta	NZ_CP015160.1	156055	156786	-	traT_CP018978.1	1-732/732	===============	0/0	100.00	99.04	EC_custom		traT_CP018978.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP018952.1.fasta	NZ_CP018952.1	5338	6612	-	senB_pUTI89_NC_007941	1-1275/1275	===============	0/0	100.00	100.00	EC_custom		senB_pUTI89_NC_007941	
+NZ_CP018952.1.fasta	NZ_CP018952.1	6582	8843	-	cjrC_pUTI89_NC_007941	1-2262/2262	===============	0/0	100.00	100.00	EC_custom		cjrC_pUTI89_NC_007941	
+NZ_CP018952.1.fasta	NZ_CP018952.1	9012	9788	-	cjrB_pUTI89_NC_007941	1-777/777	===============	0/0	100.00	100.00	EC_custom		cjrB_pUTI89_NC_007941	
+NZ_CP018952.1.fasta	NZ_CP018952.1	9796	10671	-	cjrA_pUTI89_NC_007941	1-876/876	===============	0/0	100.00	100.00	EC_custom		cjrA_pUTI89_NC_007941	
+NZ_CP018952.1.fasta	NZ_CP018952.1	101765	102496	+	traT_CP018978.1	1-732/732	===============	0/0	100.00	99.04	EC_custom		traT_CP018978.1	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_0011749.1.fasta	NC_011749.1	4118	4308	-	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NC_0011749.1.fasta	NC_011749.1	5549	6077	-	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NC_0011749.1.fasta	NC_011749.1	9062	9708	-	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.54	ISfinder_Feb_2020		ISEc22:[]	
+NC_0011749.1.fasta	NC_011749.1	9709	11662	-	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NC_0011749.1.fasta	NC_011749.1	11663	13485	-	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.34	ISfinder_Feb_2020		ISEc22:[]	
+NC_0011749.1.fasta	NC_011749.1	13484	13824	-	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NC_0011749.1.fasta	NC_011749.1	16086	16880	-	IS629:X51586	1-795/1310	==========.....	0/0	60.69	95.72	ISfinder_Feb_2020		IS629:X51586	
+NC_0011749.1.fasta	NC_011749.1	16880	17233	+	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NC_0011749.1.fasta	NC_011749.1	17233	17302	-	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NC_0011749.1.fasta	NC_011749.1	17475	17568	+	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NC_0011749.1.fasta	NC_011749.1	23175	23294	-	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NC_0011749.1.fasta	NC_011749.1	27109	27903	+	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.35	ISfinder_Feb_2020		IS1203:U06468	
+NC_0011749.1.fasta	NC_011749.1	28890	29210	+	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NC_0011749.1.fasta	NC_011749.1	40089	40238	-	IS15:M12900	1325-1474/1648	............==.	0/0	9.10	100.00	ISfinder_Feb_2020		IS15:M12900	
+NC_0011749.1.fasta	NC_011749.1	40239	40399	+	IS10R:J01829	1-161/1329	==.............	0/0	12.11	100.00	ISfinder_Feb_2020		IS10R:J01829	
+NC_0011749.1.fasta	NC_011749.1	40400	41167	+	IS1R:J01730	1-768/768	===============	0/0	100.00	97.27	ISfinder_Feb_2020		IS1R:J01730	
+NC_0011749.1.fasta	NC_011749.1	41166	42343	+	IS10R:J01829	152-1329/1329	.==============	0/0	88.64	100.00	ISfinder_Feb_2020		IS10R:J01829	
+NC_0011749.1.fasta	NC_011749.1	46756	47523	-	IS1R:J01730	1-768/768	===============	0/0	100.00	99.87	ISfinder_Feb_2020		IS1R:J01730	
+NC_0011749.1.fasta	NC_011749.1	47787	48554	-	IS1R:J01730	1-768/768	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS1R:J01730	
+NC_0011749.1.fasta	NC_011749.1	88258	89452	+	IS5:J01735	1-1195/1195	===============	0/0	100.00	99.67	ISfinder_Feb_2020		IS5:J01735	
+NC_0011749.1.fasta	NC_011749.1	108269	110153	-	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.89	ISfinder_Feb_2020		ISEc53:HG941718	
+NC_0011749.1.fasta	NC_011749.1	111893	114023	+	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_007941.1.fasta	NC_007941.1	3105	3240	-	IS1294:X82430	1553-1688/1688	.............==	0/0	8.06	96.32	ISfinder_Feb_2020		IS1294:X82430	
+NC_007941.1.fasta	NC_007941.1	3241	4060	+	IS26:X00011	1-820/820	===============	0/0	100.00	99.51	ISfinder_Feb_2020		IS26:X00011	
+NC_007941.1.fasta	NC_007941.1	14889	15209	-	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NC_007941.1.fasta	NC_007941.1	16196	16990	-	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.47	ISfinder_Feb_2020		IS1203:U06468	
+NC_007941.1.fasta	NC_007941.1	20824	20943	+	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NC_007941.1.fasta	NC_007941.1	26550	26643	-	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NC_007941.1.fasta	NC_007941.1	26816	26885	+	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NC_007941.1.fasta	NC_007941.1	26885	27238	-	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NC_007941.1.fasta	NC_007941.1	27238	27699	+	IS3411:M19532	1-463/1310	=====.../......	1/1	35.27	96.98	ISfinder_Feb_2020		IS3411:M19532	
+NC_007941.1.fasta	NC_007941.1	27695	30104	-	ISEc10:NC_004431	1-2410/2410	===============	0/0	100.00	99.92	ISfinder_Feb_2020		ISEc10:NC_004431	
+NC_007941.1.fasta	NC_007941.1	30105	30448	+	IS1203E:X97542	174-517/1032	..======.......	0/0	33.33	95.64	ISfinder_Feb_2020		IS1203E:X97542	
+NC_007941.1.fasta	NC_007941.1	32710	33050	+	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NC_007941.1.fasta	NC_007941.1	33049	34871	+	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.34	ISfinder_Feb_2020		ISEc22:[]	
+NC_007941.1.fasta	NC_007941.1	34872	36825	+	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NC_007941.1.fasta	NC_007941.1	36826	37472	+	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NC_007941.1.fasta	NC_007941.1	40457	40985	+	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NC_007941.1.fasta	NC_007941.1	42226	42416	+	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NC_007941.1.fasta	NC_007941.1	56547	58431	+	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.89	ISfinder_Feb_2020		ISEc53:HG941718	
+NC_007941.1.fasta	NC_007941.1	59586	61716	-	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_013175.1.fasta	NC_013175.1	3105	3240	-	IS1294:X82430	1553-1688/1688	.............==	0/0	8.06	96.32	ISfinder_Feb_2020		IS1294:X82430	
+NC_013175.1.fasta	NC_013175.1	3241	4060	+	IS26:X00011	1-820/820	===============	0/0	100.00	99.51	ISfinder_Feb_2020		IS26:X00011	
+NC_013175.1.fasta	NC_013175.1	14889	15209	-	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NC_013175.1.fasta	NC_013175.1	16196	16990	-	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.47	ISfinder_Feb_2020		IS1203:U06468	
+NC_013175.1.fasta	NC_013175.1	20824	20943	+	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NC_013175.1.fasta	NC_013175.1	26550	26643	-	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NC_013175.1.fasta	NC_013175.1	26816	26885	+	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NC_013175.1.fasta	NC_013175.1	26885	27238	-	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NC_013175.1.fasta	NC_013175.1	27238	27699	+	IS3411:M19532	1-463/1310	=====.../......	1/1	35.27	96.98	ISfinder_Feb_2020		IS3411:M19532	
+NC_013175.1.fasta	NC_013175.1	27695	30104	-	ISEc10:NC_004431	1-2410/2410	===============	0/0	100.00	99.92	ISfinder_Feb_2020		ISEc10:NC_004431	
+NC_013175.1.fasta	NC_013175.1	30105	30448	+	IS1203E:X97542	174-517/1032	..======.......	0/0	33.33	95.64	ISfinder_Feb_2020		IS1203E:X97542	
+NC_013175.1.fasta	NC_013175.1	32710	33050	+	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NC_013175.1.fasta	NC_013175.1	33049	34871	+	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.34	ISfinder_Feb_2020		ISEc22:[]	
+NC_013175.1.fasta	NC_013175.1	34872	36825	+	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NC_013175.1.fasta	NC_013175.1	36826	37472	+	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NC_013175.1.fasta	NC_013175.1	40457	40985	+	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NC_013175.1.fasta	NC_013175.1	42226	42416	+	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NC_013175.1.fasta	NC_013175.1	56547	58430	+	ISEc53:HG941718	1-1885/1885	========/======	1/1	99.95	99.84	ISfinder_Feb_2020		ISEc53:HG941718	
+NC_013175.1.fasta	NC_013175.1	59585	61715	-	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_013655.1.fasta	NC_013655.1	32410	34941	+	ISEc23:[]	1-2532/2532	===============	0/0	100.00	100.00	ISfinder_Feb_2020		ISEc23:[]	
+NC_013655.1.fasta	NC_013655.1	46638	49218	-	ISEc12:DQ269483	1-2581/2581	===============	0/0	100.00	99.96	ISfinder_Feb_2020		ISEc12:DQ269483	
+NC_013655.1.fasta	NC_013655.1	49239	51770	-	ISEc23:[]	1-2532/2532	===============	0/0	100.00	100.00	ISfinder_Feb_2020		ISEc23:[]	
+NC_013655.1.fasta	NC_013655.1	54155	54290	-	IS1294:X82430	1553-1688/1688	.............==	0/0	8.06	96.32	ISfinder_Feb_2020		IS1294:X82430	
+NC_013655.1.fasta	NC_013655.1	54291	55110	+	IS26:X00011	1-820/820	===============	0/0	100.00	99.51	ISfinder_Feb_2020		IS26:X00011	
+NC_013655.1.fasta	NC_013655.1	65939	66259	-	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NC_013655.1.fasta	NC_013655.1	67246	68040	-	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.47	ISfinder_Feb_2020		IS1203:U06468	
+NC_013655.1.fasta	NC_013655.1	71874	71993	+	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NC_013655.1.fasta	NC_013655.1	77600	77693	-	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NC_013655.1.fasta	NC_013655.1	77866	77935	+	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NC_013655.1.fasta	NC_013655.1	77935	78288	-	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	96.89	ISfinder_Feb_2020		IS1294:X82430	
+NC_013655.1.fasta	NC_013655.1	78288	78749	+	IS3411:M19532	1-463/1310	=====.../......	1/1	35.27	96.98	ISfinder_Feb_2020		IS3411:M19532	
+NC_013655.1.fasta	NC_013655.1	78745	81154	-	ISEc10:NC_004431	1-2410/2410	===============	0/0	100.00	99.92	ISfinder_Feb_2020		ISEc10:NC_004431	
+NC_013655.1.fasta	NC_013655.1	81155	81498	+	IS1203E:X97542	174-517/1032	..======.......	0/0	33.33	95.64	ISfinder_Feb_2020		IS1203E:X97542	
+NC_013655.1.fasta	NC_013655.1	84219	84559	+	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NC_013655.1.fasta	NC_013655.1	84558	86370	+	ISEc22:[]	1-1813/2454	============...	0/0	73.88	95.86	ISfinder_Feb_2020		ISEc22:[]	
+NC_013655.1.fasta	NC_013655.1	86371	88324	+	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NC_013655.1.fasta	NC_013655.1	88325	88971	+	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NC_013655.1.fasta	NC_013655.1	91956	92484	+	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.60	ISfinder_Feb_2020		IS2:M18426	
+NC_013655.1.fasta	NC_013655.1	93725	93915	+	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NC_013655.1.fasta	NC_013655.1	108046	109930	+	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.89	ISfinder_Feb_2020		ISEc53:HG941718	
+NC_013655.1.fasta	NC_013655.1	111085	113215	-	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_017630.1.fasta	NC_017630.1	52715	54845	+	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+NC_017630.1.fasta	NC_017630.1	56000	57884	-	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.89	ISfinder_Feb_2020		ISEc53:HG941718	
+NC_017630.1.fasta	NC_017630.1	72013	72203	-	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NC_017630.1.fasta	NC_017630.1	73443	73971	-	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NC_017630.1.fasta	NC_017630.1	76956	77602	-	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NC_017630.1.fasta	NC_017630.1	77603	79556	-	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NC_017630.1.fasta	NC_017630.1	79557	81379	-	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.34	ISfinder_Feb_2020		ISEc22:[]	
+NC_017630.1.fasta	NC_017630.1	81378	81718	-	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NC_017630.1.fasta	NC_017630.1	83980	84323	-	IS1203E:X97542	174-517/1032	..======.......	0/0	33.33	95.64	ISfinder_Feb_2020		IS1203E:X97542	
+NC_017630.1.fasta	NC_017630.1	84324	86733	+	ISEc10:NC_004431	1-2410/2410	===============	0/0	100.00	99.92	ISfinder_Feb_2020		ISEc10:NC_004431	
+NC_017630.1.fasta	NC_017630.1	86729	87190	-	IS3411:M19532	1-463/1310	=====.../......	1/1	35.27	96.98	ISfinder_Feb_2020		IS3411:M19532	
+NC_017630.1.fasta	NC_017630.1	87190	87543	+	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NC_017630.1.fasta	NC_017630.1	87543	87612	-	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NC_017630.1.fasta	NC_017630.1	87785	87878	+	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NC_017630.1.fasta	NC_017630.1	93485	93604	-	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NC_017630.1.fasta	NC_017630.1	97438	98232	+	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.47	ISfinder_Feb_2020		IS1203:U06468	
+NC_017630.1.fasta	NC_017630.1	99219	99539	+	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NC_017630.1.fasta	NC_017630.1	110366	111185	-	IS26:X00011	1-820/820	===============	0/0	100.00	99.51	ISfinder_Feb_2020		IS26:X00011	
+NC_017630.1.fasta	NC_017630.1	111186	111321	+	IS1294:X82430	1553-1688/1688	.............==	0/0	8.06	96.32	ISfinder_Feb_2020		IS1294:X82430	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP007150.1.fasta	NZ_CP007150.1	3105	3240	-	IS1294:X82430	1553-1688/1688	.............==	0/0	8.06	96.32	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP007150.1.fasta	NZ_CP007150.1	3241	4060	+	IS26:X00011	1-820/820	===============	0/0	100.00	99.51	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP007150.1.fasta	NZ_CP007150.1	14888	15208	-	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP007150.1.fasta	NZ_CP007150.1	16195	16989	-	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.47	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP007150.1.fasta	NZ_CP007150.1	20825	20944	+	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NZ_CP007150.1.fasta	NZ_CP007150.1	26551	26644	-	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NZ_CP007150.1.fasta	NZ_CP007150.1	26817	26886	+	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NZ_CP007150.1.fasta	NZ_CP007150.1	26886	27239	-	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP007150.1.fasta	NZ_CP007150.1	27239	27700	+	IS3411:M19532	1-463/1310	=====.../......	1/1	35.27	96.98	ISfinder_Feb_2020		IS3411:M19532	
+NZ_CP007150.1.fasta	NZ_CP007150.1	27696	30105	-	ISEc10:NC_004431	1-2410/2410	===============	0/0	100.00	99.92	ISfinder_Feb_2020		ISEc10:NC_004431	
+NZ_CP007150.1.fasta	NZ_CP007150.1	30106	30449	+	IS1203E:X97542	174-517/1032	..======.......	0/0	33.33	95.64	ISfinder_Feb_2020		IS1203E:X97542	
+NZ_CP007150.1.fasta	NZ_CP007150.1	32711	33051	+	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP007150.1.fasta	NZ_CP007150.1	33050	34872	+	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.34	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP007150.1.fasta	NZ_CP007150.1	34873	36826	+	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NZ_CP007150.1.fasta	NZ_CP007150.1	36827	37473	+	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP007150.1.fasta	NZ_CP007150.1	40456	40984	+	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NZ_CP007150.1.fasta	NZ_CP007150.1	42225	42415	+	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NZ_CP007150.1.fasta	NZ_CP007150.1	56546	58430	+	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.89	ISfinder_Feb_2020		ISEc53:HG941718	
+NZ_CP007150.1.fasta	NZ_CP007150.1	59585	61715	-	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP010882.1.fasta	NZ_CP010882.1	1343	2537	+	IS5:J01735	1-1195/1195	===============	0/0	100.00	99.83	ISfinder_Feb_2020		IS5:J01735	
+NZ_CP010882.1.fasta	NZ_CP010882.1	2882	3299	-	ISEc52:HG941718	828-1246/1250	......../.=====	1/1	33.44	97.85	ISfinder_Feb_2020		ISEc52:HG941718	
+NZ_CP010882.1.fasta	NZ_CP010882.1	4597	5364	+	IS1A:X52534	1-768/768	===============	0/0	100.00	98.70	ISfinder_Feb_2020		IS1A:X52534	
+NZ_CP010882.1.fasta	NZ_CP010882.1	27989	29431	+	IS150:X07037	1-1443/1443	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS150:X07037	
+NZ_CP010882.1.fasta	NZ_CP010882.1	46483	47250	+	IS1X2:Z11605	1-768/768	===============	0/0	100.00	96.35	ISfinder_Feb_2020		IS1X2:Z11605	
+NZ_CP010882.1.fasta	NZ_CP010882.1	65296	66529	+	ISEc23:[]	1-1234/2532	========.......	0/0	48.74	100.00	ISfinder_Feb_2020		ISEc23:[]	
+NZ_CP010882.1.fasta	NZ_CP010882.1	66529	67350	-	IS15:M12900	653-1474/1648	.....=========.	0/0	49.88	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP010882.1.fasta	NZ_CP010882.1	67350	68592	-	Tn2:KT002541	1-1243/4950	====...........	0/0	25.11	100.00	ISfinder_Feb_2020		Tn2:KT002541	
+NZ_CP010882.1.fasta	NZ_CP010882.1	68593	68748	-	IS1A:X52534	1-156/768	====...........	0/0	20.31	100.00	ISfinder_Feb_2020		IS1A:X52534	
+NZ_CP010882.1.fasta	NZ_CP010882.1	74848	76153	-	ISEc23:[]	1227-2532/2532	.......========	0/0	51.58	99.92	ISfinder_Feb_2020		ISEc23:[]	
+NZ_CP010882.1.fasta	NZ_CP010882.1	76153	76974	+	IS15:M12900	653-1474/1648	.....=========.	0/0	49.88	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP010882.1.fasta	NZ_CP010882.1	82383	82573	-	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NZ_CP010882.1.fasta	NZ_CP010882.1	83814	84342	-	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NZ_CP010882.1.fasta	NZ_CP010882.1	87327	87973	-	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP010882.1.fasta	NZ_CP010882.1	87974	89927	-	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NZ_CP010882.1.fasta	NZ_CP010882.1	89928	91750	-	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.28	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP010882.1.fasta	NZ_CP010882.1	91749	92089	-	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP010882.1.fasta	NZ_CP010882.1	94351	95145	-	IS629:X51586	1-795/1310	==========.....	0/0	60.69	95.72	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP010882.1.fasta	NZ_CP010882.1	95145	95498	+	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP010882.1.fasta	NZ_CP010882.1	95498	95567	-	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NZ_CP010882.1.fasta	NZ_CP010882.1	95740	95833	+	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NZ_CP010882.1.fasta	NZ_CP010882.1	101440	101559	-	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NZ_CP010882.1.fasta	NZ_CP010882.1	105374	106168	+	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.35	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP010882.1.fasta	NZ_CP010882.1	107155	107475	+	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP010882.1.fasta	NZ_CP010882.1	118354	118503	-	IS15:M12900	1325-1474/1648	............==.	0/0	9.10	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP010882.1.fasta	NZ_CP010882.1	118504	118664	+	IS10R:J01829	1-161/1329	==.............	0/0	12.11	100.00	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP010882.1.fasta	NZ_CP010882.1	118665	119002	+	IS1R:J01730	1-338/768	=======........	0/0	44.01	100.00	ISfinder_Feb_2020		IS1R:J01730	
+NZ_CP010882.1.fasta	NZ_CP010882.1	119003	119820	-	IS15:M12900	654-1473/1648	.....===/=====.	2/2	49.64	99.76	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP010882.1.fasta	NZ_CP010882.1	120614	121381	+	IS1B:X17345	1-768/768	===============	0/0	100.00	99.87	ISfinder_Feb_2020		IS1B:X17345	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP012634.1.fasta	NZ_CP012634.1	1598	2392	-	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.47	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP012634.1.fasta	NZ_CP012634.1	6226	6345	+	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NZ_CP012634.1.fasta	NZ_CP012634.1	11952	12045	-	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NZ_CP012634.1.fasta	NZ_CP012634.1	12218	12287	+	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NZ_CP012634.1.fasta	NZ_CP012634.1	12287	12640	-	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP012634.1.fasta	NZ_CP012634.1	12640	13101	+	IS3411:M19532	1-463/1310	=====.../......	1/1	35.27	96.98	ISfinder_Feb_2020		IS3411:M19532	
+NZ_CP012634.1.fasta	NZ_CP012634.1	13097	15506	-	ISEc10:NC_004431	1-2410/2410	===============	0/0	100.00	99.92	ISfinder_Feb_2020		ISEc10:NC_004431	
+NZ_CP012634.1.fasta	NZ_CP012634.1	15507	15850	+	IS1203E:X97542	174-517/1032	..======.......	0/0	33.33	95.64	ISfinder_Feb_2020		IS1203E:X97542	
+NZ_CP012634.1.fasta	NZ_CP012634.1	16837	17157	+	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP012634.1.fasta	NZ_CP012634.1	27986	28805	-	IS26:X00011	1-820/820	===============	0/0	100.00	99.51	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP012634.1.fasta	NZ_CP012634.1	28806	28941	+	IS1294:X82430	1553-1688/1688	.............==	0/0	8.06	96.32	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP012634.1.fasta	NZ_CP012634.1	84554	86684	+	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+NZ_CP012634.1.fasta	NZ_CP012634.1	87839	89723	-	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.89	ISfinder_Feb_2020		ISEc53:HG941718	
+NZ_CP012634.1.fasta	NZ_CP012634.1	103854	104044	-	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NZ_CP012634.1.fasta	NZ_CP012634.1	105285	105813	-	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NZ_CP012634.1.fasta	NZ_CP012634.1	108798	109444	-	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP012634.1.fasta	NZ_CP012634.1	109445	111398	-	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.39	ISfinder_Feb_2020		IS100kyp:U59875	
+NZ_CP012634.1.fasta	NZ_CP012634.1	111399	113221	-	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.34	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP012634.1.fasta	NZ_CP012634.1	113220	113560	-	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014493.1.fasta	NZ_CP014493.1	55203	57086	-	ISEc53:HG941718	1-1885/1885	========/======	1/1	99.95	99.84	ISfinder_Feb_2020		ISEc53:HG941718	
+NZ_CP014493.1.fasta	NZ_CP014493.1	58825	60955	+	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+NZ_CP014493.1.fasta	NZ_CP014493.1	73353	73543	-	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NZ_CP014493.1.fasta	NZ_CP014493.1	74784	75312	-	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NZ_CP014493.1.fasta	NZ_CP014493.1	78297	78943	-	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.84	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP014493.1.fasta	NZ_CP014493.1	78944	80895	-	IS100kyp:U59875	1-1954/1954	========/======	2/2	99.90	99.49	ISfinder_Feb_2020		IS100kyp:U59875	
+NZ_CP014493.1.fasta	NZ_CP014493.1	80896	82717	-	ISEc22:[]	1-1813/2454	========/===...	2/11	73.84	95.28	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP014493.1.fasta	NZ_CP014493.1	82716	83056	-	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP014493.1.fasta	NZ_CP014493.1	85316	86110	-	IS629:X51586	1-795/1310	==========.....	0/0	60.69	95.72	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP014493.1.fasta	NZ_CP014493.1	86110	86463	+	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP014493.1.fasta	NZ_CP014493.1	86463	86532	-	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NZ_CP014493.1.fasta	NZ_CP014493.1	86705	86798	+	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NZ_CP014493.1.fasta	NZ_CP014493.1	92405	92523	-	IS5075:AF457211	1208-1327/1327	......../....==	1/1	8.97	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NZ_CP014493.1.fasta	NZ_CP014493.1	96337	97130	+	IS1203:U06468	1-795/1310	========/=.....	1/1	60.61	95.22	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP014493.1.fasta	NZ_CP014493.1	98117	98437	+	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP014493.1.fasta	NZ_CP014493.1	109312	109461	-	IS15:M12900	1325-1474/1648	............==.	0/0	9.10	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP014493.1.fasta	NZ_CP014493.1	109462	109621	+	IS10R:J01829	1-161/1329	==....../......	1/1	12.04	99.38	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP014493.1.fasta	NZ_CP014493.1	109622	110389	+	IS1R:J01730	1-768/768	===============	0/0	100.00	98.70	ISfinder_Feb_2020		IS1R:J01730	
+NZ_CP014493.1.fasta	NZ_CP014493.1	110388	110608	+	IS10R:J01829	152-372/1329	.====..........	0/0	16.63	100.00	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP014493.1.fasta	NZ_CP014493.1	110605	111425	-	IS15:M12900	653-1473/1648	.....=========.	0/0	49.82	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP014493.1.fasta	NZ_CP014493.1	111421	112181	-	TnAs3:CP000645	13469-14229/18735	..........==...	0/0	4.06	99.61	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014493.1.fasta	NZ_CP014493.1	113756	115410	-	TnAs3:CP000645	7736-9393/18735	.....===/......	3/3	8.83	98.91	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014493.1.fasta	NZ_CP014493.1	117151	117278	+	TnAs3:CP000645	4630-4756/18735	...=..../......	1/1	0.68	99.22	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014493.1.fasta	NZ_CP014493.1	117279	118158	+	IS6100:X53635	1-880/880	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS6100:X53635	
+NZ_CP014493.1.fasta	NZ_CP014493.1	121389	122208	-	IS26:X00011	1-820/820	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP014493.1.fasta	NZ_CP014493.1	122209	123451	-	Tn2:KT002541	1-1243/4950	====...........	0/0	25.11	100.00	ISfinder_Feb_2020		Tn2:KT002541	
+NZ_CP014493.1.fasta	NZ_CP014493.1	123452	123607	-	IS1A:X52534	1-156/768	====...........	0/0	20.31	100.00	ISfinder_Feb_2020		IS1A:X52534	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014496.1.fasta	NZ_CP014496.1	1	194	-	IS629:X51586	787-980/1310	......../===...	2/2	14.73	96.41	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP014496.1.fasta	NZ_CP014496.1	2456	3250	-	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.47	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP014496.1.fasta	NZ_CP014496.1	7083	7202	+	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NZ_CP014496.1.fasta	NZ_CP014496.1	12809	12902	-	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NZ_CP014496.1.fasta	NZ_CP014496.1	13075	13144	+	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NZ_CP014496.1.fasta	NZ_CP014496.1	13144	13497	-	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP014496.1.fasta	NZ_CP014496.1	13497	13958	+	IS3411:M19532	1-463/1310	=====.../......	1/1	35.27	96.98	ISfinder_Feb_2020		IS3411:M19532	
+NZ_CP014496.1.fasta	NZ_CP014496.1	13954	16363	-	ISEc10:NC_004431	1-2410/2410	===============	0/0	100.00	99.92	ISfinder_Feb_2020		ISEc10:NC_004431	
+NZ_CP014496.1.fasta	NZ_CP014496.1	16364	16707	+	IS1203E:X97542	174-517/1032	..======.......	0/0	33.33	95.64	ISfinder_Feb_2020		IS1203E:X97542	
+NZ_CP014496.1.fasta	NZ_CP014496.1	17693	18013	+	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP014496.1.fasta	NZ_CP014496.1	28842	29661	-	IS26:X00011	1-820/820	===============	0/0	100.00	99.51	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP014496.1.fasta	NZ_CP014496.1	29662	29797	+	IS1294:X82430	1553-1688/1688	.............==	0/0	8.06	96.32	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP014496.1.fasta	NZ_CP014496.1	85411	87541	+	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+NZ_CP014496.1.fasta	NZ_CP014496.1	88696	90580	-	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.84	ISfinder_Feb_2020		ISEc53:HG941718	
+NZ_CP014496.1.fasta	NZ_CP014496.1	104711	104901	-	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NZ_CP014496.1.fasta	NZ_CP014496.1	106142	106670	-	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NZ_CP014496.1.fasta	NZ_CP014496.1	109655	110301	-	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP014496.1.fasta	NZ_CP014496.1	110302	112255	-	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NZ_CP014496.1.fasta	NZ_CP014496.1	112256	114078	-	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.34	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP014496.1.fasta	NZ_CP014496.1	114077	114223	-	IS3411:M19532	981-1127/1310	...........==..	0/0	11.22	97.96	ISfinder_Feb_2020		IS3411:M19532	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014498.1.fasta	NZ_CP014498.1	1398	3929	-	ISEc23:[]	1-2532/2532	===============	0/0	100.00	99.96	ISfinder_Feb_2020		ISEc23:[]	
+NZ_CP014498.1.fasta	NZ_CP014498.1	22001	22768	-	IS1X2:Z11605	1-768/768	===============	0/0	100.00	96.35	ISfinder_Feb_2020		IS1X2:Z11605	
+NZ_CP014498.1.fasta	NZ_CP014498.1	22769	23916	-	ISKpn26:NC_016845	1-1148/1196	===============	0/0	95.99	99.74	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP014498.1.fasta	NZ_CP014498.1	42937	44379	-	IS150:X07037	1-1443/1443	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS150:X07037	
+NZ_CP014498.1.fasta	NZ_CP014498.1	47773	48594	+	IS15:M12900	654-1475/1648	.....=========.	0/0	49.88	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP014498.1.fasta	NZ_CP014498.1	66328	67095	-	IS1A:X52534	1-768/768	===============	0/0	100.00	98.70	ISfinder_Feb_2020		IS1A:X52534	
+NZ_CP014498.1.fasta	NZ_CP014498.1	74607	75024	+	ISEc52:HG941718	828-1246/1250	......../.=====	1/1	33.44	97.85	ISfinder_Feb_2020		ISEc52:HG941718	
+NZ_CP014498.1.fasta	NZ_CP014498.1	75369	76563	-	IS5:J01735	1-1195/1195	===============	0/0	100.00	99.83	ISfinder_Feb_2020		IS5:J01735	
+NZ_CP014498.1.fasta	NZ_CP014498.1	79500	80267	-	IS1B:X17345	1-768/768	===============	0/0	100.00	99.87	ISfinder_Feb_2020		IS1B:X17345	
+NZ_CP014498.1.fasta	NZ_CP014498.1	86463	86653	-	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NZ_CP014498.1.fasta	NZ_CP014498.1	87894	88422	-	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NZ_CP014498.1.fasta	NZ_CP014498.1	91407	92053	-	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP014498.1.fasta	NZ_CP014498.1	92054	94007	-	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NZ_CP014498.1.fasta	NZ_CP014498.1	94008	95830	-	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.28	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP014498.1.fasta	NZ_CP014498.1	95829	96169	-	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP014498.1.fasta	NZ_CP014498.1	98431	99225	-	IS629:X51586	1-795/1310	==========.....	0/0	60.69	95.72	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP014498.1.fasta	NZ_CP014498.1	99225	99578	+	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP014498.1.fasta	NZ_CP014498.1	99578	99647	-	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NZ_CP014498.1.fasta	NZ_CP014498.1	99820	99913	+	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NZ_CP014498.1.fasta	NZ_CP014498.1	105520	105639	-	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NZ_CP014498.1.fasta	NZ_CP014498.1	109454	110248	+	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.35	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP014498.1.fasta	NZ_CP014498.1	111235	111555	+	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP014498.1.fasta	NZ_CP014498.1	122434	122583	-	IS15:M12900	1325-1474/1648	............==.	0/0	9.10	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP014498.1.fasta	NZ_CP014498.1	122584	122744	+	IS10R:J01829	1-161/1329	==.............	0/0	12.11	100.00	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP014498.1.fasta	NZ_CP014498.1	122745	123512	+	IS1R:J01730	1-768/768	===============	0/0	100.00	97.27	ISfinder_Feb_2020		IS1R:J01730	
+NZ_CP014498.1.fasta	NZ_CP014498.1	123511	123731	+	IS10R:J01829	152-372/1329	.====..........	0/0	16.63	100.00	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP014498.1.fasta	NZ_CP014498.1	123728	124548	-	IS15:M12900	653-1473/1648	.....=========.	0/0	49.82	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP014498.1.fasta	NZ_CP014498.1	124544	125304	-	TnAs3:CP000645	13469-14229/18735	..........==...	0/0	4.06	99.61	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	126879	128533	-	TnAs3:CP000645	7736-9393/18735	.....===/......	3/3	8.83	98.91	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	130274	130401	+	TnAs3:CP000645	4630-4756/18735	...=..../......	1/1	0.68	99.22	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	130402	131281	+	IS6100:X53635	1-880/880	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS6100:X53635	
+NZ_CP014498.1.fasta	NZ_CP014498.1	134514	135333	-	IS26:X00011	1-820/820	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP014498.1.fasta	NZ_CP014498.1	136658	138435	-	Tn5393:M96392	1-1778/5470	=====..........	0/0	32.50	99.61	ISfinder_Feb_2020		Tn5393:M96392	
+NZ_CP014498.1.fasta	NZ_CP014498.1	141418	142238	-	IS15:M12900	653-1473/1648	.....=========.	0/0	49.82	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP014498.1.fasta	NZ_CP014498.1	142234	142994	-	TnAs3:CP000645	13469-14229/18735	..........==...	0/0	4.06	99.61	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	144569	146222	-	TnAs3:CP000645	7736-9393/18735	.....===/......	4/4	8.83	98.85	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	147963	148090	+	TnAs3:CP000645	4630-4756/18735	...=..../......	1/1	0.68	99.22	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	148091	148970	+	IS6100:X53635	1-880/880	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS6100:X53635	
+NZ_CP014498.1.fasta	NZ_CP014498.1	152203	153022	-	IS26:X00011	1-820/820	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP014498.1.fasta	NZ_CP014498.1	154347	156123	-	Tn5393:M96392	1-1778/5470	=====.../......	1/1	32.49	99.55	ISfinder_Feb_2020		Tn5393:M96392	
+NZ_CP014498.1.fasta	NZ_CP014498.1	159106	159926	-	IS15:M12900	653-1473/1648	.....=========.	0/0	49.82	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP014498.1.fasta	NZ_CP014498.1	159922	160682	-	TnAs3:CP000645	13469-14229/18735	..........==...	0/0	4.06	99.61	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	162257	163911	-	TnAs3:CP000645	7736-9393/18735	.....===/......	3/3	8.83	98.91	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	165652	165779	+	TnAs3:CP000645	4630-4756/18735	...=..../......	1/1	0.68	99.22	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	165780	166656	+	IS6100:X53635	1-880/880	========/======	3/3	99.66	99.66	ISfinder_Feb_2020		IS6100:X53635	
+NZ_CP014498.1.fasta	NZ_CP014498.1	169861	170681	-	IS26:X00011	1-820/820	========/======	1/1	100.00	99.88	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP014498.1.fasta	NZ_CP014498.1	171885	173665	-	Tn5393:M96392	1-1778/5470	=====.../......	13/17	32.38	98.60	ISfinder_Feb_2020		Tn5393:M96392	
+NZ_CP014498.1.fasta	NZ_CP014498.1	176639	177459	-	IS15:M12900	653-1473/1648	.....=========.	0/0	49.82	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP014498.1.fasta	NZ_CP014498.1	177455	178214	-	TnAs3:CP000645	13469-14229/18735	......../..=...	1/1	4.06	99.47	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	179792	181444	-	TnAs3:CP000645	7736-9393/18735	.....===/......	11/11	8.81	98.44	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	183185	183312	+	TnAs3:CP000645	4630-4756/18735	...=..../......	1/1	0.68	99.22	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP014498.1.fasta	NZ_CP014498.1	183313	184192	+	IS6100:X53635	1-880/880	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS6100:X53635	
+NZ_CP014498.1.fasta	NZ_CP014498.1	187424	188243	-	IS26:X00011	1-820/820	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP014498.1.fasta	NZ_CP014498.1	189569	191346	-	Tn5393:M96392	1-1778/5470	=====..........	0/0	32.50	99.61	ISfinder_Feb_2020		Tn5393:M96392	
+NZ_CP014498.1.fasta	NZ_CP014498.1	194329	195161	-	IS15:M12900	642-1473/1648	.....===/=====.	1/1	50.49	99.64	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP014498.1.fasta	NZ_CP014498.1	195146	196494	-	ISCfr1:AF550415	1-1348/1617	========/====..	1/1	83.36	99.85	ISfinder_Feb_2020		ISCfr1:AF550415	
+NZ_CP014498.1.fasta	NZ_CP014498.1	199033	199853	+	IS15:M12900	654-1474/1648	.....=========.	0/0	49.82	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP014498.1.fasta	NZ_CP014498.1	199853	200765	-	IS10R:J01829	1-913/1329	===========....	0/0	68.70	100.00	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP014498.1.fasta	NZ_CP014498.1	200766	201837	-	IS10R:J01829	1-1072/1329	=============..	0/0	80.66	99.72	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP014498.1.fasta	NZ_CP014498.1	202850	203670	-	IS15:M12900	653-1473/1648	.....=========.	0/0	49.82	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP014498.1.fasta	NZ_CP014498.1	203670	204912	-	Tn2:KT002541	1-1243/4950	====...........	0/0	25.11	100.00	ISfinder_Feb_2020		Tn2:KT002541	
+NZ_CP014498.1.fasta	NZ_CP014498.1	204913	205068	-	IS1A:X52534	1-156/768	====...........	0/0	20.31	100.00	ISfinder_Feb_2020		IS1A:X52534	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014523.1.fasta	NZ_CP014523.1	53903	56033	+	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+NZ_CP014523.1.fasta	NZ_CP014523.1	57188	59072	-	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.84	ISfinder_Feb_2020		ISEc53:HG941718	
+NZ_CP014523.1.fasta	NZ_CP014523.1	73203	73393	-	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NZ_CP014523.1.fasta	NZ_CP014523.1	74634	75162	-	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NZ_CP014523.1.fasta	NZ_CP014523.1	78147	78793	-	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP014523.1.fasta	NZ_CP014523.1	78794	80747	-	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NZ_CP014523.1.fasta	NZ_CP014523.1	80748	82570	-	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.34	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP014523.1.fasta	NZ_CP014523.1	82569	82909	-	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP014523.1.fasta	NZ_CP014523.1	85171	85514	-	IS1203E:X97542	174-517/1032	..======.......	0/0	33.33	95.64	ISfinder_Feb_2020		IS1203E:X97542	
+NZ_CP014523.1.fasta	NZ_CP014523.1	85515	87924	+	ISEc10:NC_004431	1-2410/2410	===============	0/0	100.00	99.92	ISfinder_Feb_2020		ISEc10:NC_004431	
+NZ_CP014523.1.fasta	NZ_CP014523.1	87920	88381	-	IS3411:M19532	1-463/1310	=====.../......	1/1	35.27	96.98	ISfinder_Feb_2020		IS3411:M19532	
+NZ_CP014523.1.fasta	NZ_CP014523.1	88381	88734	+	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP014523.1.fasta	NZ_CP014523.1	88734	88803	-	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NZ_CP014523.1.fasta	NZ_CP014523.1	88976	89069	+	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NZ_CP014523.1.fasta	NZ_CP014523.1	94676	94795	-	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NZ_CP014523.1.fasta	NZ_CP014523.1	98629	99423	+	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.47	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP014523.1.fasta	NZ_CP014523.1	100409	100729	+	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP014523.1.fasta	NZ_CP014523.1	111557	112376	-	IS26:X00011	1-820/820	===============	0/0	100.00	99.51	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP014523.1.fasta	NZ_CP014523.1	112377	112512	+	IS1294:X82430	1553-1688/1688	.............==	0/0	8.06	96.32	ISfinder_Feb_2020		IS1294:X82430	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014668.1.fasta	NZ_CP014668.1	3105	3240	-	IS1294:X82430	1553-1688/1688	.............==	0/0	8.06	96.32	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP014668.1.fasta	NZ_CP014668.1	3241	4060	+	IS26:X00011	1-820/820	===============	0/0	100.00	99.51	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP014668.1.fasta	NZ_CP014668.1	14889	15209	-	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP014668.1.fasta	NZ_CP014668.1	16196	16739	-	IS1203:U06468	252-795/1310	..========.....	0/0	41.53	95.22	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP014668.1.fasta	NZ_CP014668.1	16740	17395	+	IS1203:U06468	140-795/1310	.=========.....	0/0	50.08	95.12	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP014668.1.fasta	NZ_CP014668.1	19657	19997	+	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP014668.1.fasta	NZ_CP014668.1	19996	21818	+	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.34	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP014668.1.fasta	NZ_CP014668.1	21819	23772	+	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.54	ISfinder_Feb_2020		IS100kyp:U59875	
+NZ_CP014668.1.fasta	NZ_CP014668.1	23773	24419	+	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP014668.1.fasta	NZ_CP014668.1	27404	27932	+	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NZ_CP014668.1.fasta	NZ_CP014668.1	29173	29363	+	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NZ_CP014668.1.fasta	NZ_CP014668.1	43494	45378	+	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.89	ISfinder_Feb_2020		ISEc53:HG941718	
+NZ_CP014668.1.fasta	NZ_CP014668.1	46533	48663	-	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015131.1.fasta	NZ_CP015131.1	39470	41354	-	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.89	ISfinder_Feb_2020		ISEc53:HG941718	
+NZ_CP015131.1.fasta	NZ_CP015131.1	43094	45224	+	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+NZ_CP015131.1.fasta	NZ_CP015131.1	57620	57810	-	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NZ_CP015131.1.fasta	NZ_CP015131.1	59051	59579	-	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NZ_CP015131.1.fasta	NZ_CP015131.1	62564	63210	-	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.54	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP015131.1.fasta	NZ_CP015131.1	63211	65164	-	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NZ_CP015131.1.fasta	NZ_CP015131.1	65165	66987	-	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.34	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP015131.1.fasta	NZ_CP015131.1	66986	67326	-	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP015131.1.fasta	NZ_CP015131.1	69588	70382	-	IS629:X51586	1-795/1310	==========.....	0/0	60.69	95.72	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP015131.1.fasta	NZ_CP015131.1	70382	70735	+	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP015131.1.fasta	NZ_CP015131.1	70735	70804	-	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NZ_CP015131.1.fasta	NZ_CP015131.1	70977	71070	+	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NZ_CP015131.1.fasta	NZ_CP015131.1	76677	76796	-	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NZ_CP015131.1.fasta	NZ_CP015131.1	80611	81405	+	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.35	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP015131.1.fasta	NZ_CP015131.1	82392	82712	+	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP015131.1.fasta	NZ_CP015131.1	93591	93740	-	IS15:M12900	1325-1474/1648	............==.	0/0	9.10	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP015131.1.fasta	NZ_CP015131.1	93741	93901	+	IS10R:J01829	1-161/1329	==.............	0/0	12.11	100.00	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP015131.1.fasta	NZ_CP015131.1	93902	94669	+	IS1R:J01730	1-768/768	===============	0/0	100.00	97.27	ISfinder_Feb_2020		IS1R:J01730	
+NZ_CP015131.1.fasta	NZ_CP015131.1	97998	98765	+	IS1R:J01730	1-768/768	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS1R:J01730	
+NZ_CP015131.1.fasta	NZ_CP015131.1	99288	103075	-	TnAs3:CP000645	14948-18735/18735	...........====	0/0	20.22	100.00	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP015131.1.fasta	NZ_CP015131.1	103076	103895	-	IS26:X00011	1-820/820	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP015131.1.fasta	NZ_CP015131.1	103896	104214	+	IS6100:X53635	562-880/880	.........======	0/0	36.25	100.00	ISfinder_Feb_2020		IS6100:X53635	
+NZ_CP015131.1.fasta	NZ_CP015131.1	107447	108266	-	IS26:X00011	1-820/820	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP015131.1.fasta	NZ_CP015131.1	108267	108585	+	IS6100:X53635	562-880/880	.........======	0/0	36.25	100.00	ISfinder_Feb_2020		IS6100:X53635	
+NZ_CP015131.1.fasta	NZ_CP015131.1	111818	112637	-	IS26:X00011	1-820/820	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP015131.1.fasta	NZ_CP015131.1	112638	112956	+	IS6100:X53635	562-880/880	.........======	0/0	36.25	100.00	ISfinder_Feb_2020		IS6100:X53635	
+NZ_CP015131.1.fasta	NZ_CP015131.1	116189	117008	-	IS26:X00011	1-820/820	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP015131.1.fasta	NZ_CP015131.1	117006	123034	-	TnAs3:CP000645	1-6029/18735	=====..........	0/0	32.18	99.98	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP015131.1.fasta	NZ_CP015131.1	123093	123860	-	IS1R:J01730	1-768/768	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS1R:J01730	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015160.1.fasta	NZ_CP015160.1	3596	3786	-	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NZ_CP015160.1.fasta	NZ_CP015160.1	5027	5555	-	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NZ_CP015160.1.fasta	NZ_CP015160.1	8540	9186	-	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.84	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP015160.1.fasta	NZ_CP015160.1	9187	11140	-	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NZ_CP015160.1.fasta	NZ_CP015160.1	11141	12963	-	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.34	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP015160.1.fasta	NZ_CP015160.1	12962	13302	-	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP015160.1.fasta	NZ_CP015160.1	15564	16358	-	IS629:X51586	1-795/1310	==========.....	0/0	60.69	95.72	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP015160.1.fasta	NZ_CP015160.1	16358	16711	+	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP015160.1.fasta	NZ_CP015160.1	16711	16780	-	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NZ_CP015160.1.fasta	NZ_CP015160.1	16953	17046	+	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NZ_CP015160.1.fasta	NZ_CP015160.1	20963	21730	+	IS1R:J01730	1-768/768	===============	0/0	100.00	98.70	ISfinder_Feb_2020		IS1R:J01730	
+NZ_CP015160.1.fasta	NZ_CP015160.1	23430	23549	-	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NZ_CP015160.1.fasta	NZ_CP015160.1	27364	28158	+	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.35	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP015160.1.fasta	NZ_CP015160.1	29145	29465	+	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP015160.1.fasta	NZ_CP015160.1	40344	40493	-	IS15:M12900	1325-1474/1648	............==.	0/0	9.10	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP015160.1.fasta	NZ_CP015160.1	40494	40654	+	IS10R:J01829	1-161/1329	==.............	0/0	12.11	100.00	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP015160.1.fasta	NZ_CP015160.1	40655	41422	+	IS1R:J01730	1-768/768	===============	0/0	100.00	98.70	ISfinder_Feb_2020		IS1R:J01730	
+NZ_CP015160.1.fasta	NZ_CP015160.1	41421	41641	+	IS10R:J01829	152-372/1329	.====..........	0/0	16.63	100.00	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP015160.1.fasta	NZ_CP015160.1	41638	42458	-	IS15:M12900	653-1473/1648	.....=========.	0/0	49.82	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP015160.1.fasta	NZ_CP015160.1	42454	43214	-	TnAs3:CP000645	13469-14229/18735	..........==...	0/0	4.06	99.61	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP015160.1.fasta	NZ_CP015160.1	44789	46443	-	TnAs3:CP000645	7736-9393/18735	.....===/......	3/3	8.83	98.91	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP015160.1.fasta	NZ_CP015160.1	48184	48311	+	TnAs3:CP000645	4630-4756/18735	...=..../......	1/1	0.68	99.22	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP015160.1.fasta	NZ_CP015160.1	48312	49191	+	IS6100:X53635	1-880/880	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS6100:X53635	
+NZ_CP015160.1.fasta	NZ_CP015160.1	52424	53243	-	IS26:X00011	1-820/820	===============	0/0	100.00	100.00	ISfinder_Feb_2020		IS26:X00011	
+NZ_CP015160.1.fasta	NZ_CP015160.1	54569	56346	-	Tn5393:M96392	1-1778/5470	=====..........	0/0	32.50	99.61	ISfinder_Feb_2020		Tn5393:M96392	
+NZ_CP015160.1.fasta	NZ_CP015160.1	59394	59794	-	TnAs3:CP000645	5058-5458/18735	....=..........	0/0	2.14	100.00	ISfinder_Feb_2020		TnAs3:CP000645	
+NZ_CP015160.1.fasta	NZ_CP015160.1	59795	60627	-	IS15:M12900	642-1473/1648	.....===/=====.	1/1	50.49	99.64	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP015160.1.fasta	NZ_CP015160.1	60612	61960	-	ISCfr1:AF550415	1-1348/1617	========/====..	1/1	83.36	99.85	ISfinder_Feb_2020		ISCfr1:AF550415	
+NZ_CP015160.1.fasta	NZ_CP015160.1	64533	65372	+	IS15:M12900	635-1474/1648	.....=========.	0/0	50.97	99.17	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP015160.1.fasta	NZ_CP015160.1	65369	66380	-	IS10R:J01829	1-1012/1329	============...	0/0	76.15	99.90	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP015160.1.fasta	NZ_CP015160.1	66381	67452	-	IS10R:J01829	1-1072/1329	=============..	0/0	80.66	99.72	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP015160.1.fasta	NZ_CP015160.1	68158	68982	-	IS15:M12900	653-1477/1648	.....=========.	0/0	50.06	99.88	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP015160.1.fasta	NZ_CP015160.1	68982	70224	-	Tn2:KT002541	1-1243/4950	====...........	0/0	25.11	100.00	ISfinder_Feb_2020		Tn2:KT002541	
+NZ_CP015160.1.fasta	NZ_CP015160.1	70225	70380	-	IS1A:X52534	1-156/768	====...........	0/0	20.31	100.00	ISfinder_Feb_2020		IS1A:X52534	
+NZ_CP015160.1.fasta	NZ_CP015160.1	197621	199505	-	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.89	ISfinder_Feb_2020		ISEc53:HG941718	
+NZ_CP015160.1.fasta	NZ_CP015160.1	201245	203375	+	IS21:X14793	1-2131/2131	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS21:X14793	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP018952.1.fasta	NZ_CP018952.1	2437	2757	-	ISKpn26:NC_016845	876-1196/1196	..........=====	0/0	26.84	98.44	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP018952.1.fasta	NZ_CP018952.1	3744	4538	-	IS629:X51586	1-795/1310	==========.....	0/0	60.69	95.72	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP018952.1.fasta	NZ_CP018952.1	4538	4891	+	IS1294:X82430	1241-1593/1688	......../..====	1/1	20.91	97.17	ISfinder_Feb_2020		IS1294:X82430	
+NZ_CP018952.1.fasta	NZ_CP018952.1	4891	4960	-	ISEc51:NZ_AEME01000001.1	1-70/2857	=..............	0/0	2.45	97.14	ISfinder_Feb_2020		ISEc51:NZ_AEME01000001.1	
+NZ_CP018952.1.fasta	NZ_CP018952.1	5133	5226	+	ISSfl1:-	1208-1301/1301	.............==	0/0	7.23	87.23	ISfinder_Feb_2020		ISSfl1:-	
+NZ_CP018952.1.fasta	NZ_CP018952.1	10833	10952	-	IS5075:AF457211	1208-1327/1327	.............==	0/0	9.04	94.17	ISfinder_Feb_2020		IS5075:AF457211	
+NZ_CP018952.1.fasta	NZ_CP018952.1	14766	15560	+	IS1203:U06468	1-795/1310	==========.....	0/0	60.69	95.35	ISfinder_Feb_2020		IS1203:U06468	
+NZ_CP018952.1.fasta	NZ_CP018952.1	17822	18162	+	IS629:X51586	787-1127/1310	......../=====.	2/2	25.95	96.78	ISfinder_Feb_2020		IS629:X51586	
+NZ_CP018952.1.fasta	NZ_CP018952.1	18161	19983	+	ISEc22:[]	1-1813/2454	========/===...	1/10	73.88	95.28	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP018952.1.fasta	NZ_CP018952.1	19984	21937	+	IS100kyp:U59875	1-1954/1954	===============	0/0	100.00	99.59	ISfinder_Feb_2020		IS100kyp:U59875	
+NZ_CP018952.1.fasta	NZ_CP018952.1	21938	22584	+	ISEc22:[]	1808-2454/2454	...........====	0/0	26.37	99.69	ISfinder_Feb_2020		ISEc22:[]	
+NZ_CP018952.1.fasta	NZ_CP018952.1	25569	26097	+	IS2:M18426	1-529/1331	======.........	0/0	39.74	96.79	ISfinder_Feb_2020		IS2:M18426	
+NZ_CP018952.1.fasta	NZ_CP018952.1	27338	27528	+	ISCfr6:[]	1052-1243/1258	......../...===	3/3	15.10	80.83	ISfinder_Feb_2020		ISCfr6:[]	
+NZ_CP018952.1.fasta	NZ_CP018952.1	29555	31439	-	ISEc53:HG941718	1-1885/1885	===============	0/0	100.00	99.95	ISfinder_Feb_2020		ISEc53:HG941718	
+NZ_CP018952.1.fasta	NZ_CP018952.1	35617	36384	+	IS1B:X17345	1-768/768	===============	0/0	100.00	99.87	ISfinder_Feb_2020		IS1B:X17345	
+NZ_CP018952.1.fasta	NZ_CP018952.1	39321	40515	+	IS5:J01735	1-1195/1195	===============	0/0	100.00	99.83	ISfinder_Feb_2020		IS5:J01735	
+NZ_CP018952.1.fasta	NZ_CP018952.1	40860	41277	-	ISEc52:HG941718	828-1246/1250	......../.=====	1/1	33.44	97.85	ISfinder_Feb_2020		ISEc52:HG941718	
+NZ_CP018952.1.fasta	NZ_CP018952.1	46738	47505	+	IS1A:X52534	1-768/768	===============	0/0	100.00	98.70	ISfinder_Feb_2020		IS1A:X52534	
+NZ_CP018952.1.fasta	NZ_CP018952.1	72717	74159	+	IS150:X07037	1-1443/1443	===============	0/0	100.00	99.72	ISfinder_Feb_2020		IS150:X07037	
+NZ_CP018952.1.fasta	NZ_CP018952.1	93180	94327	+	ISKpn26:NC_016845	1-1148/1196	===============	0/0	95.99	99.74	ISfinder_Feb_2020		ISKpn26:NC_016845	
+NZ_CP018952.1.fasta	NZ_CP018952.1	94328	95095	+	IS1X2:Z11605	1-768/768	===============	0/0	100.00	96.35	ISfinder_Feb_2020		IS1X2:Z11605	
+NZ_CP018952.1.fasta	NZ_CP018952.1	113168	115699	+	ISEc23:[]	1-2532/2532	===============	0/0	100.00	99.96	ISfinder_Feb_2020		ISEc23:[]	
+NZ_CP018952.1.fasta	NZ_CP018952.1	121797	121952	+	IS1A:X52534	1-156/768	====...........	0/0	20.31	100.00	ISfinder_Feb_2020		IS1A:X52534	
+NZ_CP018952.1.fasta	NZ_CP018952.1	121953	122046	+	Tn3:HM769901	1-94/4948	=..............	0/0	1.90	100.00	ISfinder_Feb_2020		Tn3:HM769901	
+NZ_CP018952.1.fasta	NZ_CP018952.1	122047	122866	+	IS15:M12900	654-1473/1648	.....=========.	0/0	49.76	100.00	ISfinder_Feb_2020		IS15:M12900	
+NZ_CP018952.1.fasta	NZ_CP018952.1	122867	123591	-	IS1R:J01730	1-725/768	===============	0/0	94.40	97.24	ISfinder_Feb_2020		IS1R:J01730	
+NZ_CP018952.1.fasta	NZ_CP018952.1	123592	123752	-	IS10R:J01829	1-161/1329	==.............	0/0	12.11	100.00	ISfinder_Feb_2020		IS10R:J01829	
+NZ_CP018952.1.fasta	NZ_CP018952.1	123753	123902	+	IS15:M12900	1325-1474/1648	............==.	0/0	9.10	100.00	ISfinder_Feb_2020		IS15:M12900	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_0011749.1.fasta	NC_011749.1	22	703	+	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+NC_0011749.1.fasta	NC_011749.1	23485	23626	-	Col156_1	13-154/154	.==============	0/0	92.21	98.59	plasmidfinder	NC_009781	Col156_1__NC_009781	
+NC_0011749.1.fasta	NC_011749.1	51878	52136	+	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_007941.1.fasta	NC_007941.1	1135	1393	-	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+NC_007941.1.fasta	NC_007941.1	20480	20633	+	Col156_1	1-154/154	===============	0/0	100.00	98.70	plasmidfinder	NC_009781	Col156_1__NC_009781	
+NC_007941.1.fasta	NC_007941.1	45831	46512	-	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_013175.1.fasta	NC_013175.1	1135	1393	-	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+NC_013175.1.fasta	NC_013175.1	20480	20633	+	Col156_1	1-154/154	===============	0/0	100.00	98.70	plasmidfinder	NC_009781	Col156_1__NC_009781	
+NC_013175.1.fasta	NC_013175.1	45831	46512	-	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_013655.1.fasta	NC_013655.1	52185	52443	-	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+NC_013655.1.fasta	NC_013655.1	71530	71683	+	Col156_1	1-154/154	===============	0/0	100.00	98.70	plasmidfinder	NC_009781	Col156_1__NC_009781	
+NC_013655.1.fasta	NC_013655.1	97330	98011	-	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_017630.1.fasta	NC_017630.1	67918	68599	+	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+NC_017630.1.fasta	NC_017630.1	93795	93948	-	Col156_1	1-154/154	===============	0/0	100.00	98.70	plasmidfinder	NC_009781	Col156_1__NC_009781	
+NC_017630.1.fasta	NC_017630.1	113033	113291	+	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP007150.1.fasta	NZ_CP007150.1	1135	1393	-	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+NZ_CP007150.1.fasta	NZ_CP007150.1	20481	20634	+	Col156_1	1-154/154	===============	0/0	100.00	98.70	plasmidfinder	NC_009781	Col156_1__NC_009781	
+NZ_CP007150.1.fasta	NZ_CP007150.1	45830	46511	-	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP010882.1.fasta	NZ_CP010882.1	10090	10477	+	IncFIA_1	1-388/388	===============	0/0	100.00	100.00	plasmidfinder	AP001918	IncFIA_1__AP001918	
+NZ_CP010882.1.fasta	NZ_CP010882.1	73451	73711	+	IncFII(pRSB107)_1_pRSB107	1-261/261	===============	0/0	100.00	100.00	plasmidfinder	AJ851089	IncFII(pRSB107)_1_pRSB107_AJ851089	
+NZ_CP010882.1.fasta	NZ_CP010882.1	78245	78926	+	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	97.95	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+NZ_CP010882.1.fasta	NZ_CP010882.1	101750	101891	-	Col156_1	13-154/154	.==============	0/0	92.21	98.59	plasmidfinder	NC_009781	Col156_1__NC_009781	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP012634.1.fasta	NZ_CP012634.1	5882	6035	+	Col156_1	1-154/154	===============	0/0	100.00	98.70	plasmidfinder	NC_009781	Col156_1__NC_009781	
+NZ_CP012634.1.fasta	NZ_CP012634.1	30653	30911	+	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+NZ_CP012634.1.fasta	NZ_CP012634.1	99758	100439	+	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014493.1.fasta	NZ_CP014493.1	1	258	+	IncFII(29)_1_pUTI89	1-259/259	========/======	1/1	99.61	99.23	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+NZ_CP014493.1.fasta	NZ_CP014493.1	69253	69934	+	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+NZ_CP014493.1.fasta	NZ_CP014493.1	92713	92854	-	Col156_1	13-154/154	.==============	0/0	92.21	98.59	plasmidfinder	NC_009781	Col156_1__NC_009781	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014496.1.fasta	NZ_CP014496.1	6740	6893	+	Col156_1	1-154/154	===============	0/0	100.00	98.70	plasmidfinder	NC_009781	Col156_1__NC_009781	
+NZ_CP014496.1.fasta	NZ_CP014496.1	31509	31767	+	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+NZ_CP014496.1.fasta	NZ_CP014496.1	100615	101296	+	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014498.1.fasta	NZ_CP014498.1	1	261	+	IncFII(pRSB107)_1_pRSB107	1-261/261	===============	0/0	100.00	100.00	plasmidfinder	AJ851089	IncFII(pRSB107)_1_pRSB107_AJ851089	
+NZ_CP014498.1.fasta	NZ_CP014498.1	62437	62824	-	IncFIA_1	1-388/388	===============	0/0	100.00	100.00	plasmidfinder	AP001918	IncFIA_1__AP001918	
+NZ_CP014498.1.fasta	NZ_CP014498.1	82325	83006	+	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	97.95	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+NZ_CP014498.1.fasta	NZ_CP014498.1	105830	105971	-	Col156_1	13-154/154	.==============	0/0	92.21	98.59	plasmidfinder	NC_009781	Col156_1__NC_009781	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014523.1.fasta	NZ_CP014523.1	1	259	+	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+NZ_CP014523.1.fasta	NZ_CP014523.1	69107	69788	+	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+NZ_CP014523.1.fasta	NZ_CP014523.1	94986	95139	-	Col156_1	1-154/154	===============	0/0	100.00	98.70	plasmidfinder	NC_009781	Col156_1__NC_009781	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014668.1.fasta	NZ_CP014668.1	1135	1393	-	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+NZ_CP014668.1.fasta	NZ_CP014668.1	32778	33459	-	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015131.1.fasta	NZ_CP015131.1	53524	54205	+	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	96.63	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+NZ_CP015131.1.fasta	NZ_CP015131.1	76987	77128	-	Col156_1	13-154/154	.==============	0/0	92.21	98.59	plasmidfinder	NC_009781	Col156_1__NC_009781	
+NZ_CP015131.1.fasta	NZ_CP015131.1	127184	127442	+	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015160.1.fasta	NZ_CP015160.1	3	176	+	IncFIB(AP001918)_1	509-682/682	...........====	0/0	25.51	97.13	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+NZ_CP015160.1.fasta	NZ_CP015160.1	23740	23881	-	Col156_1	13-154/154	.==============	0/0	92.21	98.59	plasmidfinder	NC_009781	Col156_1__NC_009781	
+NZ_CP015160.1.fasta	NZ_CP015160.1	75079	75337	+	IncFII(29)_1_pUTI89	1-259/259	===============	0/0	100.00	99.61	plasmidfinder	CP003035	IncFII(29)_1_pUTI89_CP003035	
+NZ_CP015160.1.fasta	NZ_CP015160.1	142325	142825	+	IncFIC(FII)_1	1-499/499	========/======	4/4	99.80	84.06	plasmidfinder	AP001918	IncFIC(FII)_1__AP001918	
+NZ_CP015160.1.fasta	NZ_CP015160.1	211675	212180	+	IncFIB(AP001918)_1	1-506/682	============...	0/0	74.19	96.64	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP018952.1.fasta	NZ_CP018952.1	11143	11284	-	Col156_1	13-154/154	.==============	0/0	92.21	98.59	plasmidfinder	NC_009781	Col156_1__NC_009781	
+NZ_CP018952.1.fasta	NZ_CP018952.1	32878	33559	-	IncFIB(AP001918)_1	1-682/682	===============	0/0	100.00	97.95	plasmidfinder	AP001918	IncFIB(AP001918)_1__AP001918	
+NZ_CP018952.1.fasta	NZ_CP018952.1	52231	52618	+	IncFIA_1	1-388/388	===============	0/0	100.00	100.00	plasmidfinder	AP001918	IncFIA_1__AP001918	
+NZ_CP018952.1.fasta	NZ_CP018952.1	116836	117096	-	IncFII(pRSB107)_1_pRSB107	1-261/261	===============	0/0	100.00	100.00	plasmidfinder	AJ851089	IncFII(pRSB107)_1_pRSB107_AJ851089	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_0011749.1.fasta	NC_011749.1	17680	18818	-	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_007941.1.fasta	NC_007941.1	25300	26438	+	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_013175.1.fasta	NC_013175.1	25300	26438	+	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_013655.1.fasta	NC_013655.1	76350	77488	+	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NC_017630.1.fasta	NC_017630.1	87990	89128	-	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP007150.1.fasta	NZ_CP007150.1	25301	26439	+	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP010882.1.fasta	NZ_CP010882.1	95945	97083	-	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP012634.1.fasta	NZ_CP012634.1	10702	11840	+	senB	2-1140/1140	===============	0/0	99.91	99.65	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014493.1.fasta	NZ_CP014493.1	86910	88048	-	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014496.1.fasta	NZ_CP014496.1	11559	12697	+	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014498.1.fasta	NZ_CP014498.1	100025	101163	-	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP014523.1.fasta	NZ_CP014523.1	89181	90319	-	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015131.1.fasta	NZ_CP015131.1	71182	72320	-	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP015160.1.fasta	NZ_CP015160.1	17158	18296	-	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+NZ_CP018952.1.fasta	NZ_CP018952.1	5338	6476	-	senB	2-1140/1140	===============	0/0	99.91	99.74	vfdb	YP_406304	(senB) enterotoxin [ShET2 (VF0258)] [Shigella flexneri 2a str. 301]	
