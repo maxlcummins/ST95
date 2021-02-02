@@ -423,3 +423,57 @@ nohup snakemake --use-conda -j -p > ${PROJ_DIR}/logs/${TASK}/nohup_${TASK}_pMLST
 PROCESS_ID=$!
 echo "$dt" "$PWD" "JOB_ID =" "$PROCESS_ID plasdb pMLST" >> ${PROJ_DIR}/logs/${TASK}/JOB_IDs
 ```
+
+
+
+## Pangenomic analysis
+
+Prokka version: ___
+
+Roary version: ____
+
+Snakefile:
+```
+dt=$(date '+%d/%m/%Y %H:%M:%S')
+
+# Reset working directory
+PROJ_DIR=/projects/AusGEM/Users/Max/Manuscripts/ST95
+
+# Define the pipelord directory where our pipelines are kept
+PIPELORD_DIR=~/Data/pipelord/
+
+# Change the config file
+MASTER_CONF=/projects/AusGEM/Users/Max/Manuscripts/ST95/snakemake/masterconfigs/masterconfig_plasdb.yaml
+
+# Set the task variable for our output names
+TASK=pangenome
+
+# Change to the pipelord directory
+cd ${PIPELORD_DIR}/${TASK}lord
+
+# Create a directory for our task output log
+mkdir ${PROJ_DIR}/snakemake/${TASK}
+
+#Change Snakefile config variable to our master config
+perl -p -i -e "s@^configfile.*@configfile: \"${MASTER_CONF}\"@g" Snakefile
+
+# Copy the Snakefile and Environment yaml/s to our project directory
+cp Snakefile config/prokka.yaml config/roary.yaml ${PROJ_DIR}/snakemake/${TASK}
+
+# Create a directory for our task output log
+mkdir ${PROJ_DIR}/logs/${TASK}
+
+# Run task
+nohup snakemake -j --use-conda  -p > ${PROJ_DIR}/logs/${TASK}/nohup_${TASK}.err 2> ${PROJ_DIR}/logs/${TASK}/nohup_${TASK}.out &
+
+# Save our job ID
+PROCESS_ID=$!
+echo "$dt" "$PWD" "JOB_ID =" "$PROCESS_ID" >> ${PROJ_DIR}/logs/${TASK}/JOB_IDs
+
+cd /projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pangenome/
+mkdir iqtree
+cp roary_99/core_gene_alignment.aln iqtree
+cd iqtree
+nohup iqtree -s core_gene_alignment.aln -m MFP -bb 1000 -nt AUTO >iqtree_core_genome_aln.out 2>iqtree_core_genome_aln.err &
+#Job ID = 31265
+```
