@@ -1,0 +1,129 @@
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_0011749.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_0011749.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_0011749.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_0011749.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_0011749.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_0011749.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_0011749.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_007941.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_007941.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_007941.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_007941.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_007941.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_007941.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_007941.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013175.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013175.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013175.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013175.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013175.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013175.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013175.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013655.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013655.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013655.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013655.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013655.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013655.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_013655.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_017630.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_017630.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_017630.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_017630.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_017630.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_017630.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NC_017630.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP007150.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP007150.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP007150.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP007150.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP007150.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP007150.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP007150.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA	100.0	100.0	384	384	0	FIA_2	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP010882.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_20	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP010882.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP010882.1.out/results_tab.tsv
+FII	100.0	100.0	157	157	0	FII_1	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP010882.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP010882.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP010882.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP010882.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP012634.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP012634.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP012634.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP012634.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP012634.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP012634.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP012634.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014493.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014493.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014493.1.out/results_tab.tsv
+FII	99.35483870967742	99.35483870967742	155	155	1	FII_29?*	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014493.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014493.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014493.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014493.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014496.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014496.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014496.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014496.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014496.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014496.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014496.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA	100.0	100.0	384	384	0	FIA_2	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014498.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_20	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014498.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014498.1.out/results_tab.tsv
+FII	100.0	100.0	157	157	0	FII_1	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014498.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014498.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014498.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014498.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014523.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014523.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014523.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014523.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014523.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014523.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014523.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014668.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014668.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014668.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014668.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014668.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014668.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP014668.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015131.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015131.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015131.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015131.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015131.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015131.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015131.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015160.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_10	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015160.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015160.1.out/results_tab.tsv
+FII	100.0	100.0	157	157	0	FII_2!	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015160.1.out/results_tab.tsv
+FII	100.0	100.0	155	155	0	FII_29!	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015160.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015160.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015160.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP015160.1.out/results_tab.tsv
+Locus	Identity	Coverage	Alignment Length	Allele Length	Gaps	Allele	name_file
+FIA	100.0	100.0	384	384	0	FIA_2	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP018952.1.out/results_tab.tsv
+FIB	100.0	100.0	373	373	0	FIB_20	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP018952.1.out/results_tab.tsv
+FIC						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP018952.1.out/results_tab.tsv
+FII	100.0	100.0	157	157	0	FII_1	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP018952.1.out/results_tab.tsv
+FIIK						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP018952.1.out/results_tab.tsv
+FIIS						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP018952.1.out/results_tab.tsv
+FIIY						No hit found	/projects/AusGEM/Users/Max/Manuscripts/ST95/output/plasdb_pUTI89-like/pMLST/incf/NZ_CP018952.1.out/results_tab.tsv
