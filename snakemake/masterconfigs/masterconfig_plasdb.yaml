@@ -1,11 +1,13 @@
 ### General configuration variables                                                                                                              # general
 # Prefix for output files - here the collection name or an abbreviation for the relevant manuscript might be a good choice                       # general   
-prefix: plasdb                                                                                                                     # general
+#prefix: plasdb 
+prefix: plasdb_pUTI89-like                                                                                                                     # general
 # Path to project directory where you want your output to go                                                                                     # general
 # Path to short-reads. Here it is assumed that your reads are set up as read pairs - analysis is unlikely to work if this isnt the case.         # general
 raw_reads:                                                                                        # general
 # Path to assemblies. These may be your initial input as sometimes it can be hard to source read for large collections                           # general
-assemblies: /projects/AusGEM/databases/plasmid_db_Sistrom_2018/split_fastas
+#assemblies: /projects/AusGEM/databases/plasmid_db_Sistrom_2018/split_fastas
+assemblies: /projects/AusGEM/Users/Max/Manuscripts/ST95/data/pUTI89-like
 # Path to blast executable                                                                                                                       # general
 blast_bin: /usr/local/ncbi-blast-2.8.1+/bin
 # Path to master output directory
