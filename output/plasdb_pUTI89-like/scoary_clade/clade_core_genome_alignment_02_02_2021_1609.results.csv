@@ -1,0 +1,6 @@
+"Gene","Non-unique Gene name","Annotation","Number_pos_present_in","Number_neg_present_in","Number_pos_not_present_in","Number_neg_not_present_in","Sensitivity","Specificity","Odds_ratio","Naive_p","Bonferroni_p","Benjamini_H_p"
+"group_519","","IS6 family transposase IS26","9","0","0","7","100.0","100.0","inf","8.741258741258732e-05","0.04230769230769226","0.008461538461538453"
+"insB-2_2","","InsAB' transposase","0","7","9","0","0.0","0.0","0.0","8.741258741258732e-05","0.04230769230769226","0.008461538461538453"
+"chpB","","ChpB toxin of the ChpB-ChpS toxin-antitoxin system","0","7","9","0","0.0","0.0","0.0","8.741258741258732e-05","0.04230769230769226","0.008461538461538453"
+"pemI","","Antitoxin PemI","0","7","9","0","0.0","0.0","0.0","8.741258741258732e-05","0.04230769230769226","0.008461538461538453"
+"group_270","","hypothetical protein","0","7","9","0","0.0","0.0","0.0","8.741258741258732e-05","0.04230769230769226","0.008461538461538453"
