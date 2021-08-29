@@ -1,35 +1,49 @@
 library(ggtree)
+require(cowplot)
 
+#Check if the data required for this script is in our environment, or else generate it
 if(!exists("metadata")){
         source("scripts/Clade_H2_process.R")
 }
 
+#Check that the number of strains is correct and that we aren't importing the full metadata list
 if(nrow(metadata) != 51){
-        quit()
+        source("scripts/Clade_H2_process.R")
 }
 
 #Remove all objects from our environment except the ones we need
 rm(list=setdiff(ls(), c("df", "metadata")))
 
 tree_path_2 <- "placeholder/output/overlap_group_snp_sites.treefile"
-#tree_path_2 <- "placeholder/output/accessory_overlap_group.tree"
 
+tree_path_accessory <- "placeholder/output/accessory_overlap_group.tree"
+
+#Define our colours for particular gene types
 cols_fig3 <- c("0" = "white",  "1" = "#bebada", "2" = "#80b1d3", "3" = "#fb8072", "4" = "black", "5" = "purple")
 
+#Generate our dataframe we wish to plot next to our tree
 df_Fig2 <- df %>% select(-starts_with("colv_zoetis")) %>% select(-starts_with("IS_"))
 
-df_plas <- df %>% select(-starts_with("colv")) %>% select(starts_with("Col"), starts_with("Inc"), starts_with("p0111"),starts_with("rep"))
+#Reassign metadata for data manipulation
+meta <- metadata
 
-df_IS <- df %>% select(starts_with("IS_"))
+#Replace NULL IncF_RSTs with a blank space
+meta$IncF_RST <- gsub("F-:A-:B-", "", meta$IncF_RST)
+#Get rid of A NULL notation
+meta$IncF_RST <- gsub(":A-", "", meta$IncF_RST)
+#Replace C4 variant with F18 variant - these sequences overlap but C4 has a slightly higher scoring metric which means it gets selected
+meta$IncF_RST <- gsub("^C4:", "F18:", meta$IncF_RST)
 
-df_noplas <- df %>% select(-starts_with("IS_")) %>% select(-starts_with("colv")) %>% select(-starts_with("Col"), -starts_with("Inc"), -starts_with("p0111"),-starts_with("rep"))
 
-tree_path_2
-
+#Read in our tree
 tree2 <- read.tree(tree_path_2)
 
+#Extract the column names from the input for scrutiny. I then manually edited some in a text editor, flagging duplicates which were present in multiple databases
+# with *** to allow their removal. I also cleaned the names of things with long ugly names and fixed some genes which didn't correctly have gene counts in their names
 df_Fig2_colnames <- colnames(df_Fig2) %>% as.data.frame()
 
+#While column names in the next step are manually reassigned I did include a check that the number of columns is correct prior to colname reassignment. This should, in the vast majority of cases,
+#throw an error if a different column set is brought in.
 if(length(colnames(df_Fig2) == 104)){
         colnames(df_Fig2) <- c("ColV (48/51)",
                                "Col(BS512) (1/51)",
@@ -39,7 +53,7 @@ if(length(colnames(df_Fig2) == 104)){
                                "Col8282 (1/51)",
                                "ColpVC (3/51)",
                                "ColRNAI (2/51)",
-                               "IncB/O/K/Z",
+                               "IncB/O/K/Z (5/51)",
                                "IncFIA (2/51)",
                                "IncFIB (50/51)",
                                "IncFIC (6/51)",
@@ -47,7 +61,7 @@ if(length(colnames(df_Fig2) == 104)){
                                "IncFII (pUTI89) (1/51)",
                                "IncHI2 (1/51)",
                                "IncHI2A (1/51)",
-                               "IncI Gamma  (1/51)",
+                               "IncI Gamma (1/51)",
                                "IncI1 Alpha (2/51)",
                                "p0111 (9/51)",
                                "gyrA(D87N) (1/51)",
@@ -137,38 +151,26 @@ if(length(colnames(df_Fig2) == 104)){
                                "ybtA (51/51)")
 }else{message("Check the column names are correct as they are hard coded in this script...")}
 
+#Remove genes flagged for removal
 df_Fig2 <- df_Fig2 %>% select(-starts_with("***"))
 
+#Plot out tree
 p <- ggtree(tree2) %<+%
-        metadata +
+        meta +
         geom_tiplab(size = 1.75,
                     align = TRUE,
                     linesize = 0.15)
 
-listy <- read_csv("placeholder/delims/pSF_088_nores_plasmid_coverage.csv")
-
-rownames(listy) <- listy$X1
-
-listy2 <- listy %>% select(-X1)
-
-rownames(listy2) <- listy$X1
-
+#Plot figure 3
 plasmid_tree <- gheatmap(
         p = p,
         data = df_Fig2,
-        #colnames_offset_y = -0.1,
         font.size = 1.5,
         hjust = 0,
         colnames_position = "top",
         colnames = TRUE,
         colnames_angle = 90,
-        #Accessory
-        #offset = 0.65,
-        #CGA_snps
         offset = 0.0175,
-        #Accessory
-        #width = 3.5,
-        #CGA_snps
         width = 5.5,
         color = "grey",
         low = 'white',
@@ -180,9 +182,6 @@ plasmid_tree <- gheatmap(
                 size = 0.0175,
                 align = TRUE,
                 linetype = NULL,
-                #Accessory
-                #offset = 0.35
-                #CGA_snp_sites
                 offset = 0.007
         ) +
         geom_tiplab(
@@ -191,9 +190,6 @@ plasmid_tree <- gheatmap(
                 size = 0.0135,
                 align = TRUE,
                 linetype = NULL,
-                #Accessory
-                #offset = 0.45
-                #CGA_snp_sites
                 offset = 0.0095
         ) +
         geom_tiplab(
@@ -202,42 +198,19 @@ plasmid_tree <- gheatmap(
                 size = 0.0135,
                 align = TRUE,
                 linetype = NULL,
-                #Accessory
-                #offset = 0.55
-                #CGA_snp_sites
                 offset = 0.0115
         ) +
-        #        geom_tiplab(
-        #                aes(label = Revised_Collection_Year),
-        #                align = TRUE,
-        #                linetype = NULL,
-        #                offset = 19,
-        #                size = 0.5
-        #        ) +
-        #geom_tiplab(
-        #        aes(label = ColV_percent_hit),
-        #        align = TRUE,
-        #        linetype = NULL,
-#        offset = 0.018,
-#        size = 0.5
-#) +
-geom_tiplab(
-        aes(label = IncF_RST),
-        align = TRUE,
-        linetype = NULL,
-        #Accessory
-        #offset = 3.3,
-        #CGA_snp_sites
-        offset = 0.0135,
-        size = 2
-) +
+        geom_tiplab(
+                aes(label = IncF_RST),
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.0135,
+                size = 2
+                ) +
         geom_tiplab(
                 aes(label = HC5),
                 align = TRUE,
                 linetype = NULL,
-                #Accessory
-                #offset = 3.3,
-                #CGA_snp_sites
                 offset = -0.015,
                 size = 2
         ) +
@@ -245,24 +218,160 @@ geom_tiplab(
                 aes(label = HC2),
                 align = TRUE,
                 linetype = NULL,
-                #Accessory
-                #offset = 3.3,
-                #CGA_snp_sites
                 offset = -0.020,
                 size = 2
         ) +
-#        theme(legend.position = "none") #+
-ggplot2::ylim(NA, 60) +
+        ggplot2::ylim(NA, 60) +
         scale_fill_manual(
                 aesthetics = c("colour", "fill"),
                 values = cols_fig3,
                 na.value = 'grey'
-        )# +
-#geom_image(x = 104.5, y = 48, image = "../Linear_Map.png", size = 0.630) 
+        )
 
-require(cowplot)
+#Isolate the legend from figure 3
 leg1 <- get_legend(plasmid_tree)
-
+#Plot the legend
 plot(leg1)
 
+
+#Plot the plasmid tree (without legend)
 plasmid_tree + theme(legend.position="none")
+
+
+#### Make SNP-matrix tree ####
+df <- read.csv(
+        "placeholder/output/overlap_group_snp_sites_dists.csv"
+        #"placeholder/output/ST95_all_CGA_snp_sites_dists.csv"
+)
+
+df2 <- df 
+data.csv <- Metadata
+
+#clean row names
+rownames(df)<- df$snp.dists.0.6.3
+df <- df %>% select(-snp.dists.0.6.3)
+
+##Get order from phylotree
+d <- fortify(tree2)
+dd <- subset(d, isTip)
+colorder <- dd$label[order(dd$y, decreasing = TRUE)]
+
+colordnum <- match(colorder, colnames(df))
+rownum <- match(colorder, row.names(df))
+
+#Reset row and column order from SNP matrix to match our tree
+df <- df[, colordnum]
+df <- df[rownum, ]
+
+#Define SNP matrix colours
+snp_names <- c(" g   250+",
+               " f   100-250",
+               " e   75-100",
+               " d   50-75",
+               " c   25-50",
+               " b   10-25",
+               " a   0-10")
+
+
+snp_cols_fun <- colorRampPalette(c("white", "blue", "red"))
+snp_cols <- snp_cols_fun(7)
+
+names(snp_cols) <- snp_names
+
+#Bind our new colours to our old oens
+var_col <- c(cols_fig3, snp_cols)
+
+#Define ranges for binning of SNP distance values
+mo250 <- df[] > 250
+mo100 <- df[] <= 250 & df[] > 100
+les100 <- df[] <= 100 & df[] > 75
+les75 <- df[] <= 75 & df[] > 50
+les50 <- df[] <= 50 & df[] > 25
+les25 <- df[] <= 25 & df[] > 10
+les10 <- df[] <= 10
+
+#Reassign values to bins
+df[mo250] <- " g   250+"
+df[mo100] <- " f   100-250"
+df[les100] <- " e   75-100"
+df[les75] <- " d   50-75"
+df[les50] <- " c   25-50"
+df[les25] <- " b   10-25"
+df[les10] <- " a   0-10"
+
+#Set rownames
+rownames(df) <- colnames(df)
+
+#Plot the SNP matrix
+snp_matrix <- gheatmap(
+        p,
+        df,
+        width = 10,
+        colnames = T,
+        color = rgb(220, 220, 220, max = 255, alpha = 25),
+        colnames_angle = 90,
+        colnames_offset_y = 0,
+        colnames_offset_x = 0,
+        offset = 0.025,
+        colnames_position = "top",
+        font.size = 2,
+        hjust = 0
+) +
+        geom_tiplab(
+                aes(image = Flag),
+                geom = "image",
+                size = 0.0175,
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.01
+        ) +
+        geom_tiplab(
+                aes(image = Revised_Source_Niche_img),
+                geom = "image",
+                size = 0.0135,
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.0135
+        ) +
+        geom_tiplab(
+                aes(image = Pathogen_img),
+                geom = "image",
+                size = 0.0135,
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.0165
+        ) +
+        geom_tiplab(
+                aes(label = IncF_RST),
+                align = TRUE,
+                linetype = NULL,
+                offset = 0.0195,
+                size = 2,
+                hjust = 0
+        ) +
+        geom_tiplab(
+                aes(label = HC5),
+                align = TRUE,
+                linetype = NULL,
+                offset = -0.015,
+                size = 2
+        ) +
+        geom_tiplab(
+                aes(label = HC2),
+                align = TRUE,
+                linetype = NULL,
+                offset = -0.020,
+                size = 2
+        ) +
+       ggplot2::ylim(NA, 60) +
+        scale_fill_manual(
+                aesthetics = c("colour", "fill"),
+                values = var_col,
+                na.value = 'grey'
+        )
+
+#require(cowplot)
+snp_matrix_theme <- get_legend(snp_matrix)
+
+#Plot below, unhash to visualise and save
+#snp_matrix + theme(legend.position="none") 

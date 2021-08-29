@@ -7,9 +7,11 @@ if(!exists("plasmid_coverage_table")){
 #Remove all objects from our environment except the ones we need
 rm(list=setdiff(ls(), c("plasmid_coverage_table", "metadata", "df_small4")))
 
+#Load in trees
 core_tree_path <- "placeholder/output/ST95_all_CGA_snp_sites.tree"
 accessory_tree_path <- "placeholder/output/accessory_ST95_all.tree"
 
+#Generate plasmid map bins
 plas_names <- plasmid_coverage_table %>% select(starts_with("p"),-plas_counts) %>% colnames()
 
 plas_cuts <- c("0-49", "50-59", "60-69", "70-79", "80-89", "90-100")
@@ -22,6 +24,7 @@ for(i in plas_names){
         }
 }
 
+#Generate plasmid map colours
 plasmid1_col_gen <- colorRampPalette(c("white", "red")) # pACN
 plasmid2_col_gen <- colorRampPalette(c("white", "yellow")) # pAPEC 
 plasmid3_col_gen <- colorRampPalette(c("white", "black")) # pBCE
@@ -39,10 +42,14 @@ plasmid5_cols <- plasmid5_col_gen(6)
 plasmid6_cols <- plasmid6_col_gen(6)
 plasmid7_cols <- plasmid7_col_gen(6)
 
+#Preview colours
 #plot(x = 1:8, y = rep(1, 8), col = class_res_count_cols, pch = 19)
 
+#Bind colours into a list
 plas_cols <- c(plasmid1_cols, plasmid2_cols, plasmid3_cols, plasmid4_cols, plasmid5_cols, plasmid6_cols, plasmid7_cols)
 
+
+#Generate colour list for intI1
 intI1_cols <- c(
         "white", # 0 - no gene present
         "black" # 1 - gene present
@@ -52,6 +59,7 @@ intI1_vars <- c(0,1)
 
 names(intI1_cols) <- intI1_vars
 
+#Generate colour list for ColV carriage
 colV_cols <- c(
         "grey40", # ColV_neg - ColV present (Liu criteria)
         "red" # ColV_pos - ColV present (Liu criteria)
@@ -62,6 +70,7 @@ colv_vars <- c("ColV_neg","ColV_pos")
 
 names(colV_cols) <- colv_vars
 
+#Generate colour list for AMR
 amr_col_gen <- colorRampPalette(c("white", "blue", "red"))
 
 amr_count_cols <- amr_col_gen(13)
@@ -81,6 +90,7 @@ class_res_count_vars <- c(
 
 names(class_res_count_cols) <- class_res_count_vars
 
+#Generate colour list for ESBL resistance
 ESBL_res_cols <- c("white", # ESBL NEG
                    "black"  # ESBL POS
 )
@@ -89,6 +99,8 @@ ESBL_res_vars <- c("ESBL_neg", "ESBL_pos")
 
 names(ESBL_res_cols) <- ESBL_res_vars
 
+
+#Generate colour list for plasmid counts (non-IncF repA)
 plas_count_cols <- c("gray1", #   plas_count - res_count_0
                      "gray25", #   plas_count - res_count_1
                      "gray50", #   plas_count - res_count_2
@@ -105,6 +117,7 @@ plas_count_vars <- c("count_plas_4",
 
 names(plas_count_cols) <- plas_count_vars
 
+#Generate colour list for HC200 groups
 HC200_cols <- c(        "#60c757"	,	#	1104	#	HC200		
                         "#47037a"	,	#	1108	#	HC200		
                         "#726c00"	,	#	1592	#	HC200		
@@ -129,6 +142,8 @@ HC200_vars <- c(1104,
 
 names(HC200_cols) <- HC200_vars
 
+
+#Generate colour list for Pathogen type
 Pathogen_cols <- c("green",  # Pathogen status        # Environmental
                    "black", # Pathogen status         # Flora
                    "grey", # Pathogen status         # Other
@@ -147,6 +162,8 @@ Pathogen_vars <- c(
 
 names(Pathogen_cols) <- Pathogen_vars
 
+
+#Generate colour list for Source type
 source_cols <- c(
         "brown"	,	#	Bovine	#	Source		
         "gold2"	,	#	Canine	#	Source		
@@ -166,8 +183,10 @@ source_vars <- c(
 
 names(source_cols) <- source_vars
 
+#Generate colour list for reference plasmids
 plas_vars <- c()
 
+#Create all possible combinations of bins and plasmid references so that when we make our legend it includes all options
 for(i in sort(plas_names)){
         plas_var <- c(paste0(i, "_0-49"), paste0(i, "_50-69"), paste0(i, "_60-69"), paste0(i, "_70-79"), paste0(i, "_80-89"), paste0(i, "_90-100"))
         plas_vars <- c(plas_vars, plas_var)
@@ -178,6 +197,7 @@ names(plas_cols) <- plas_vars
 
 var_col <- c(HC200_cols, colV_cols, intI1_cols, plas_cols, class_res_count_cols, ESBL_res_cols, source_cols, Pathogen_cols, plas_count_cols)
 
+#Generate colour list for Continents of origin
 continent_cols <- c("#DDCC77", #sand
                     "#EE3377",  #magenta
                     "#009988",   #teal
@@ -188,16 +208,52 @@ continent_names <- c("North America","Europe", "Oceania", "Asia")
 
 names(continent_cols) <- continent_names
 
-var_col <- c(var_col, continent_cols, plas_cols)
+#Generate colour list for fastbaps clades
+fastbaps_clade_label_cols <- c(
+        '#e6194B',
+        '#3cb44b',
+        #'#ffe119', yellow
+        '#4363d8',
+        '#f58231',
+        '#42d4f4',
+        #'#f032e6', magenta
+        #'#fabed4', pink
+        '#469990',
+        #'#dcbeff',
+        #'#9A6324',
+        #'#fffac8', beige
+        '#800000',
+        '#aaffc3',
+        '#000075',
+        'black'
+        #'#ffffff', white
+)
 
+names(fastbaps_clade_label_cols) <- c('Clade J',
+                                      'Clade D',
+                                      'Clade E',
+                                      'Clade F',
+                                      'Clade A',
+                                      'Clade B',
+                                      'Clade H',
+                                      'Clade C',
+                                      'Clade G',
+                                      'Clade I'
+)
 
+var_col <- c(var_col, continent_cols, plas_cols, fastbaps_clade_label_cols)
+
+#Read in trees
 core_tree <- read.tree(core_tree_path)
 accessory_tree <- read.tree(accessory_tree_path)
 
+#Midpoint root rtrees
 core_tree <- midpoint.root(core_tree)
 
+#Clean the IncF RST data
 metadata$IncF_RST <- gsub("F-:A-:B-", "", metadata$IncF_RST)
 
+#Plot the tree
 tree_core <- ggtree(core_tree,
                     open.angle = 0) %<+%
         metadata +
@@ -210,12 +266,15 @@ tree_core <- ggtree(core_tree,
         )
 
 
+#Create a small dataframe with the data of interest
 fig1_df <- df_small4 %>% select(Revised_Source_Niche, plasmid_map, intI1, class_res_counts, plas_counts, Continent)
 
 fig1_df <- fig1_df %>% select(Revised_Source_Niche)
 
-fig1_df$Revised_Source_Niche <- c(rep(names(var_col), 5), names(var_col)[1:28])
+#Combine all possible cell values into one big column to force all values into our legend
+fig1_df$Null_column <- c(rep(names(var_col), 5)[1:668])
 
+#Plot our pseudofigure for legend extraction
 fig1a <- gheatmap(
         p = tree_core,
         data = fig1_df,
@@ -239,6 +298,7 @@ fig1a <- gheatmap(
                 na.value = 'grey'
         )
 
+#Extract the legend
 require(cowplot)
 fig1_theme <- get_legend(fig1a)
 

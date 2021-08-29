@@ -6,6 +6,9 @@ library(dplyr)
 
 working_dir <- "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95"
 
+#Set working directory
+setwd(working_dir)
+
 #Load paths to files needed for the script
 tree_path <- "placeholder/output/accessory_ST95_all.tree"
 abricate_path <- "placeholder/output/genotype.txt"
@@ -31,9 +34,6 @@ abricateR(
         pointfinder_data = pointfinder_path,
         pMLST_data = pMLST_data
 )
-
-#Set working directory
-setwd(working_dir)
 
 #### Read in and clean tree file ####
 tree <-
@@ -417,13 +417,13 @@ Metadata$Pathogen <- gsub("APEC", "Systemic", Metadata$Pathogen)
 Metadata$Pathogen <- gsub("UPEC", "Urine", Metadata$Pathogen)
 Metadata$Pathogen <- gsub("SEPEC", "Systemic", Metadata$Pathogen)
 Metadata$Pathogen <- gsub("RMAE", "Raw Chicken", Metadata$Pathogen)
-Metadata$Pathogen <- gsub("Faecal", "Flora", Metadata$Pathogen)
+Metadata$Pathogen <- gsub("Faecal", "Gastrointestinal", Metadata$Pathogen)
 
 #Here are the URLs for Pathotype images
 Metadata$Pathogen_img <- Metadata$Pathogen
 Metadata$Pathogen_img <-
         gsub(
-                "Flora",
+                "Gastrointestinal",
                 "https://raw.githubusercontent.com/maxlcummins/AVC171/master/images/Icons/colon.png",
                 Metadata$Pathogen_img
         )
@@ -698,8 +698,12 @@ v[v == 1] <- 3
 cv[cv == 1] <- 4
 i[i == 1] <- 5
 
-#Bind these columns back togeteer
+#Bind these columns back together
 df <- cbind(cv, r, p, v, i)
+
+#Keep a copy of this df for future analyses
+df_bk <- df
+df_bk$working_name <- ST95_all_simple_summary_N90L90$name
 
 #replace multiple columns for sitA hits to be a column for a single sitA hits
 df$vir_sitA <- df %>% select(starts_with("vir_sitA")) %>% rowSums()
@@ -1295,24 +1299,6 @@ colnames(plasmid_coverage_table) <- gsub("intI1.*", "intI1", colnames(plasmid_co
 #Select columns of interest
 plasmid_coverage_table <- plasmid_coverage_table %>% select(Revised_Source_Niche, pU1_F51_B10, pBCE049_1, pAPEC_O2_ColV, pSF_088_nores, pUTI89, pACN001_B, pEC244_2, intI1, class_res_counts, ESBL_ress, plas_counts)
 
-
-## DELETE ME AFTER CORRECT DATA ###
-## DELETE ME AFTER CORRECT DATA ###
-## DELETE ME AFTER CORRECT DATA ###
-## DELETE ME AFTER CORRECT DATA ###
-## DELETE ME AFTER CORRECT DATA ###
-#plasmid_coverage_table$pU1_F51_B10[is.na(plasmid_coverage_table$pU1_F51_B10)] <- 0
-#plasmid_coverage_table$pBCE049_1[is.na(plasmid_coverage_table$pBCE049_1)] <- 0
-#plasmid_coverage_table$pAPEC_O2_ColV[is.na(plasmid_coverage_table$pAPEC_O2_ColV)] <- 0
-#plasmid_coverage_table$pSF_088_nores[is.na(plasmid_coverage_table$pSF_088_nores)] <- 0
-#plasmid_coverage_table$pUTI89[is.na(plasmid_coverage_table$pUTI89)] <- 0
-## DELETE ME AFTER CORRECT DATA ###
-## DELETE ME AFTER CORRECT DATA ###
-## DELETE ME AFTER CORRECT DATA ###
-## DELETE ME AFTER CORRECT DATA ###
-## DELETE ME AFTER CORRECT DATA ###
-
-
 #Note - the below script doesn't work for cases where a plasmid has two equally tied best matches!
 #Flag: Fix me
 #For every row in our table generated above
@@ -1515,7 +1501,9 @@ df_small5 <- left_join(df_small4, Metadata, by = "working_name")
 
 df_small4 <- df_small4 %>% select(Pathogen, Revised_Source_Niche, plasmid_map, intI1, class_res_counts, ESBL_ress, plas_counts, Continent, ColV, IncF_RST)
 
-df_small4$Pathogen <- gsub("^","_pathogen_status_", df_small4$Pathogen)
+#df_small4$Pathogen <- gsub("^","_pathogen_status_", df_small4$Pathogen)
+
+df_small4$Pathogen <- gsub("Flora","Gastrointestinal", df_small4$Pathogen)
 
 rownames(df_small4) <- nems
 
