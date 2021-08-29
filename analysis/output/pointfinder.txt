@@ -1,0 +1,81 @@
+name	Mutation	Nucleotide change	Amino acid change	Resistance	PMID
+ESC_BA8511AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_CA4203AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_CA5584AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_CA6245AA_AS	gyrA p.D87G	GAC -> GGC	D -> G	Nalidixic acid,Ciprofloxacin	12654733
+ESC_CA6770AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_CB2345AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_FA7190AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_FB3739AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_FB9640AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_GB3527AA_AS	gyrA p.D87Y	GAC -> TAC	D -> Y	Nalidixic acid,Ciprofloxacin	12654733
+ESC_GB6618AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_GB6899AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_GB9758AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_HA1968AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_HA1968AA_AS	gyrA p.D87N	GAC -> AAC	D -> N	Nalidixic acid,Ciprofloxacin	12654733
+ESC_HA1968AA_AS	parC p.S80I	AGC -> ATT	S -> I	Nalidixic acid,Ciprofloxacin	8851598
+ESC_HA5037AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_HA5037AA_AS	gyrA p.D87N	GAC -> AAC	D -> N	Nalidixic acid,Ciprofloxacin	12654733
+ESC_HA5037AA_AS	parC p.S80I	AGC -> ATT	S -> I	Nalidixic acid,Ciprofloxacin	8851598
+ESC_HA5174AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_HA5174AA_AS	parC p.G78C	GGC -> TGC	G -> C	Nalidixic acid,Ciprofloxacin	14510643
+ESC_HA5683AA_AS	gyrA p.D87Y	GAC -> TAC	D -> Y	Nalidixic acid,Ciprofloxacin	12654733
+ESC_HA5800AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_IA2239AA_AS	ampC promoter n.-32T>A	T -> A	Promoter mutations	ampicillin,ampicillin+clavulanic acid,amoxicillin,amoxicillin+clavulanic acid,cefixime,cefotaxime,cefoxitin,ceftazidime,piperacillin	21653764
+ESC_IB6595AA_AS	ampC promoter n.-32T>A	T -> A	Promoter mutations	ampicillin,ampicillin+clavulanic acid,amoxicillin,amoxicillin+clavulanic acid,cefixime,cefotaxime,cefoxitin,ceftazidime,piperacillin	21653764
+ESC_IB7465AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_IB7465AA_AS	gyrA p.D87N	GAC -> AAC	D -> N	Nalidixic acid,Ciprofloxacin	12654733
+ESC_IB7465AA_AS	parC p.S80I	AGC -> ATT	S -> I	Nalidixic acid,Ciprofloxacin	8851598
+ESC_IB7469AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_IB7517AA_AS	16S (rrsH) r.1192C>T	C -> T	RNA mutations	Spectinomycin	6330677
+ESC_IB7712AA_AS	gyrA p.D87N	GAC -> AAC	D -> N	Nalidixic acid,Ciprofloxacin	12654733
+ESC_IB7745AA_AS	gyrA p.D87N	GAC -> AAC	D -> N	Nalidixic acid,Ciprofloxacin	12654733
+ESC_JA4010AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_JB8357AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_JB8357AA_AS	gyrA p.D87N	GAC -> AAC	D -> N	Nalidixic acid,Ciprofloxacin	12654733
+ESC_JB8357AA_AS	parC p.S80I	AGC -> ATT	S -> I	Nalidixic acid,Ciprofloxacin	8851598
+ESC_JB8358AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_JB8358AA_AS	gyrA p.D87N	GAC -> AAC	D -> N	Nalidixic acid,Ciprofloxacin	12654733
+ESC_JB8358AA_AS	parC p.S80I	AGC -> ATT	S -> I	Nalidixic acid,Ciprofloxacin	8851598
+ESC_JB8359AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_JB9522AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_KA3859AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_KB4192AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_LA4540AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_LA4540AA_AS	gyrA p.D87N	GAC -> AAC	D -> N	Nalidixic acid,Ciprofloxacin	12654733
+ESC_LA4540AA_AS	parC p.S80I	AGC -> ATT	S -> I	Nalidixic acid,Ciprofloxacin	8851598
+ESC_LB0314AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_LB0314AA_AS	gyrA p.D87N	GAC -> AAC	D -> N	Nalidixic acid,Ciprofloxacin	12654733
+ESC_LB0314AA_AS	parC p.E84K	GAA -> AAA	E -> K	Nalidixic acid,Ciprofloxacin	8524852
+ESC_LB0440AA_AS	gyrA p.D87G	GAC -> GGC	D -> G	Nalidixic acid,Ciprofloxacin	12654733
+ESC_LB6010AA_AS	ampC promoter n.-16_-15insGT	ins -> GT	Promoter mutations	ampicillin,ampicillin+clavulanic acid,amoxicillin,amoxicillin+clavulanic acid,cefixime,cefotaxime,cefoxitin,ceftazidime,piperacillin	21653764
+ESC_NA3979AA_AS	folP p.P64S	CCA -> TCA	P -> S	Sulfamethoxazole	9449266
+ESC_NA3997AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_NA4034AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_NA4065AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_QA3671AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_QA5919AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_QA6616AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_QA7385AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_QA7877AA_AS	gyrA p.D87G	GAC -> GGC	D -> G	Nalidixic acid,Ciprofloxacin	12654733
+ESC_QA8948AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_RA4044AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_RA4047AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_RA4048AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_RA4050AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_RA4068AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_TA2365AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_TA7147AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_TA8717AA_AS	gyrA p.D87Y	GAC -> TAC	D -> Y	Nalidixic acid,Ciprofloxacin	12654733
+ESC_WA6857AA_AS	ampC promoter n.-32T>A	T -> A	Promoter mutations	ampicillin,ampicillin+clavulanic acid,amoxicillin,amoxicillin+clavulanic acid,cefixime,cefotaxime,cefoxitin,ceftazidime,piperacillin	21653764
+ESC_XA1050AA_AS	gyrA p.D87G	GAC -> GGC	D -> G	Nalidixic acid,Ciprofloxacin	12654733
+ESC_XA1114AA_AS	gyrA p.D87G	GAC -> GGC	D -> G	Nalidixic acid,Ciprofloxacin	12654733
+ESC_XA1135AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_XA1141AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_XA1350AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_XA1359AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_XA1393AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_XA1397AA_AS	gyrA p.S83L	TCG -> TTG	S -> L	Nalidixic acid,Ciprofloxacin	8891148
+ESC_XA1397AA_AS	gyrA p.D87N	GAC -> AAC	D -> N	Nalidixic acid,Ciprofloxacin	12654733
+ESC_XA1397AA_AS	parC p.S80I	AGC -> ATT	S -> I	Nalidixic acid,Ciprofloxacin	8851598
