@@ -90,25 +90,6 @@ df <- apply(df, 2, FUN = function(x) paste0(x, " (",as.data.frame(table(x)[x])[,
 
 df <- as.data.frame(df)
 
-df$name
-
-#AMR vs ColV vs Plasmid type
-AMR_ColV_plas <- df %>% select(class_res_counts, ColV, plasmid_map)
-
-#Source vs ColV vs plasmid type
-pMLST_ColV_plasmap <- df %>% select(plasmid_map, Revised_Source_Niche, ColV)
-
-#Source vs ColV vs plasmid type
-pMLST_ColV_mdr <- df %>% select(ESBL_ress, MDR, intI1)
-
-plas_count_plasmap_MDR <- df %>% select(IncF_RST, plasmid_map, ColV)
-
-pMLST_ColV_plasmap <- df %>% select(Continent, Revised_Source_Niche, Pathogen)
-
-
-hchart(data_to_sankey(pMLST_ColV_plasmap), "sankey", name = "IncF_RST to ColV and plasmid_map")  %>%
-        hc_plotOptions(series = list(dataLabels = list(style = list(fontSize = "20px"))))
-
 df_clean <- apply(X = df, MARGIN = 2, FUN = function(x)gsub(" \\(.*", "", x))
 
 df_clean <- df_clean %>% as.data.frame()
@@ -253,6 +234,8 @@ ggplotly(plasmid_map_status_class_res_counts)
 all_data$fimH_type[is.na(all_data$fimH_type)] <- "fimH-"
 
 
+#### Chi-squared tests ####
+
 #MDR vs ColV Pos/Neg
 
 plasmid_vs_amr <- table(all_data$ColV, all_data$class_res_counts > 2)
@@ -391,8 +374,6 @@ chisq.test(plasmid_vs_amr, correct = FALSE)
 
 
 
-
-
 #plas_counts vs pUTI89* Pos/Neg
 plasmid_vs_amr <- table(all_data$plasmid_map == "pUTI89*", all_data$plas_counts > 0)
 
@@ -498,27 +479,9 @@ for(i in unique(all_data$clade_label)){
         readline("Press enter to see the next association")
 }
 
-#ANOVA 
-
-library(AICcmodavg)
-
-one.way <- aov(plas_counts ~ clade_label, data = all_data)
-two.way <- aov(plas_counts ~ clade_label + plasmid_map, data = all_data)
-interaction <- aov(plas_counts ~ clade_label*plasmid_map, data = all_data)
-
-
-
-model.set <- list(one.way, two.way, interaction)
-model.names <- c("one.way", "two.way", "interaction")
-
-aictab(model.set, modnames = model.names)
-
+#### t-tests ####
 
 t.test(all_data$class_res_counts[all_data$ColV == "ColV Positive"], all_data$class_res_counts[all_data$ColV == "ColV Negative"])
-
-
-
-
 
 res_data <- all_data %>% select(beta_lactam_res, sulfonamide_res, aminoglycoside_res, tetracycline_res, trimethoprim_res, fluoroquinolone_res, ESBL_ress, amphenicol_res, macrolide_lincosamide_res, polymyxin_res, class_res_counts, CIA_resistance, ColV)
 
@@ -548,9 +511,9 @@ for(i in colnames(res_data)[2:ncol(res_data)]){
         print(paste(sum(ColV_pos_num), sum(ColV_neg_num), i, t.test(ColV_pos_num, ColV_neg_num)[3]))
 }
 
-
-
 t.test(all_data$class_res_counts[all_data$plasmid_map == "pUTI89*"], all_data$class_res_counts[all_data$ColV != "pUTI89*"])
+
+
 
 ColV_neg <- all_data %>% filter(ColV == "ColV Negative")
 
