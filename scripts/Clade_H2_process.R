@@ -8,13 +8,13 @@ library(dplyr)
 working_dir <- "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95"
 
 #Load paths to files needed for the script
-tree_path <- "placeholder/output/accessory_overlap_group.tree"
-abricate_path <- "placeholder/output/genotype.txt"
-pointfinder_path <- "placeholder/output/pointfinder.txt"
-pMLST_data <- "placeholder/output/pMLST.txt"
-cgMLST_path <- "placeholder/data/enterobase/Curated_metadata_all.txt"
-phylotype_path <- "placeholder/data/enterobase/ST95_phylotypes.txt"
-serotype_path <- "placeholder/data/enterobase/ST95_serotypes.txt"
+tree_path <- "analysis/output/accessory_overlap_group.tree"
+abricate_path <- "analysis/output/genotype.txt"
+pointfinder_path <- "analysis/output/pointfinder.txt"
+pMLST_data <- "analysis/output/pMLST.txt"
+cgMLST_path <- "analysis/data/enterobase/Curated_metadata_all.txt"
+phylotype_path <- "analysis/data/enterobase/ST95_phylotypes.txt"
+serotype_path <- "analysis/data/enterobase/ST95_serotypes.txt"
 
 #Provide output names
 output_name <- "ST95_all"

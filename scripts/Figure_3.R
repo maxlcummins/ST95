@@ -14,9 +14,9 @@ if(nrow(metadata) != 51){
 #Remove all objects from our environment except the ones we need
 rm(list=setdiff(ls(), c("df", "metadata")))
 
-tree_path_2 <- "placeholder/output/overlap_group_snp_sites.treefile"
+tree_path_2 <- "analysis/output/overlap_group_snp_sites.treefile"
 
-tree_path_accessory <- "placeholder/output/accessory_overlap_group.tree"
+tree_path_accessory <- "analysis/output/accessory_overlap_group.tree"
 
 #Define our colours for particular gene types
 cols_fig3 <- c("0" = "white",  "1" = "#bebada", "2" = "#80b1d3", "3" = "#fb8072", "4" = "black", "5" = "purple")
@@ -240,8 +240,8 @@ plasmid_tree + theme(legend.position="none")
 
 #### Make SNP-matrix tree ####
 df <- read.csv(
-        "placeholder/output/overlap_group_snp_sites_dists.csv"
-        #"placeholder/output/ST95_all_CGA_snp_sites_dists.csv"
+        "analysis/output/overlap_group_snp_sites_dists.csv"
+        #"analysis/output/ST95_all_CGA_snp_sites_dists.csv"
 )
 
 df2 <- df 

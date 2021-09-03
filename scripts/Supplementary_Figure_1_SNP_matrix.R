@@ -9,8 +9,8 @@ if(!exists("plasmid_coverage_table")){
 #Read in core genome tree
 phylotree <-
         read.tree(
-                "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/placeholder/output/ST95_all_CGA_snp_sites.tree"
-                #"/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/placeholder/output/accessory_ST95_all.tree"
+                "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/ST95_all_CGA_snp_sites.tree"
+                #"/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/accessory_ST95_all.tree"
         )
 
 #Midpoint root the tree
@@ -19,8 +19,8 @@ phylotree <- midpoint.root(phylotree)
 #Read in SNP data
 df <-
         read.csv(
-                #"placeholder/output/overlap_group_snp_sites_dists.csv"
-                "placeholder/output/ST95_all_CGA_snp_sites_dists.csv"
+                #"analysis/output/overlap_group_snp_sites_dists.csv"
+                "analysis/output/ST95_all_CGA_snp_sites_dists.csv"
         )
 
 #Rename Metadata sheet for some reason

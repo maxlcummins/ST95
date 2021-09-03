@@ -10,8 +10,8 @@ if(!exists("plasmid_coverage_table")){
 }
 
 #Define paths to core tree and accessory tree files
-core_tree_path <- "placeholder/output/ST95_all_CGA_snp_sites.tree"
-accessory_tree_path <- "placeholder/output/accessory_ST95_all.tree"
+core_tree_path <- "analysis/output/ST95_all_CGA_snp_sites.tree"
+accessory_tree_path <- "analysis/output/accessory_ST95_all.tree"
 
 #### Define colours ####
 
