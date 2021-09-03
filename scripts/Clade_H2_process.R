@@ -31,7 +31,7 @@ abricateR(
         abricate_in = abricate_path,
         output = output_name,
         output_directory = output_dir,
-        writecsv = TRUE,
+        writecsv = FALSE,
         pointfinder_data = pointfinder_path,
         pMLST_data = pMLST_data
 )
