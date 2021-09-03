@@ -9,8 +9,8 @@ if(!exists("plasmid_coverage_table")){
 #Read in core genome tree
 phylotree <-
         read.tree(
-                "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/ST95_all_CGA_snp_sites.tree"
-                #"/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/accessory_ST95_all.tree"
+                "analysis/output/ST95_all_CGA_snp_sites.tree"
+                #"analysis/output/accessory_ST95_all.tree"
         )
 
 #Midpoint root the tree

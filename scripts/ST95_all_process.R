@@ -4,7 +4,7 @@ library(tidyr)
 library(readr)
 library(dplyr)
 
-working_dir <- "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95"
+working_dir <- "."
 
 #Set working directory
 setwd(working_dir)
@@ -30,7 +30,7 @@ abricateR(
         abricate_in = abricate_path,
         output = output_name,
         output_directory = output_dir,
-        writecsv = TRUE,
+        writecsv = FALSE,
         pointfinder_data = pointfinder_path,
         pMLST_data = pMLST_data
 )
@@ -752,7 +752,7 @@ source("scripts/plasmid_mapR.R")
 
 #Run plasmid mapR if the pBCE049_1 percent coverage file doesnt exist
 if(file.exists("analysis/delims/pBCE049_1_plasmid_coverage_percentage.csv") == FALSE){
-        plasmid_mapR(path_to_abricate = "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/abricate/pBCE049_1.txt",
+        plasmid_mapR(path_to_abricate = "analysis/output/abricate/pBCE049_1.txt",
                      plasmid_reference_name = "pBCE049_1",
                      output_directory = "analysis/delims",
                      min_hit_id = 95,
@@ -773,7 +773,7 @@ Metadata <- left_join(Metadata, plas_perc_cov)
 
 #Same again for pUTI89
 if(file.exists("analysis/delims/pUTI89_plasmid_coverage_percentage.csv") == FALSE){
-        plasmid_mapR(path_to_abricate = "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/abricate/pUTI89.txt",
+        plasmid_mapR(path_to_abricate = "analysis/output/abricate/pUTI89.txt",
                      plasmid_reference_name = "pUTI89",
                      output_directory = "analysis/delims",
                      min_hit_id = 95,
@@ -794,7 +794,7 @@ Metadata <- left_join(Metadata, plas_perc_cov)
 
 #Same again for pSF_088 (minus the resistance region)
 if(file.exists("analysis/delims/pSF_088_nores_plasmid_coverage_percentage.csv") == FALSE){
-        plasmid_mapR(path_to_abricate = "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/abricate/pSF_088_nores.txt",
+        plasmid_mapR(path_to_abricate = "analysis/output/abricate/pSF_088_nores.txt",
                      plasmid_reference_name = "pSF_088_nores",
                      output_directory = "analysis/delims",
                      min_hit_id = 95,
@@ -814,7 +814,7 @@ Metadata <- left_join(Metadata, plas_perc_cov)
 
 #Same again for pAPEC_O2_ColV (minus the resistance region)
 if(file.exists("analysis/delims/pAPEC_O2_ColV_plasmid_coverage_percentage.csv") == FALSE){
-        plasmid_mapR(path_to_abricate = "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/abricate/pAPEC_O2_ColV.txt",
+        plasmid_mapR(path_to_abricate = "analysis/output/abricate/pAPEC_O2_ColV.txt",
                      plasmid_reference_name = "pAPEC_O2_ColV",
                      output_directory = "analysis/delims",
                      min_hit_id = 95,
@@ -835,7 +835,7 @@ Metadata <- left_join(Metadata, plas_perc_cov)
 
 #Same again for pU1_F51_B10 (minus the resistance region)
 if(file.exists("analysis/delims/pU1_F51_B10_plasmid_coverage_percentage.csv") == FALSE){
-        plasmid_mapR(path_to_abricate = "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/abricate/pU1_F51_B10.txt",
+        plasmid_mapR(path_to_abricate = "analysis/output/abricate/pU1_F51_B10.txt",
                      plasmid_reference_name = "pU1_F51_B10",
                      output_directory = "analysis/delims",
                      min_hit_id = 95,
@@ -858,7 +858,7 @@ Metadata <- left_join(Metadata, plas_perc_cov)
 
 #Same again for pAPEC_O1_ColBM (minus the resistance region)
 if(file.exists("analysis/delims/pAPEC_O1_ColBM_plasmid_coverage_percentage.csv") == FALSE){
-        plasmid_mapR(path_to_abricate = "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/abricate/pAPEC_O1_ColBM.txt",
+        plasmid_mapR(path_to_abricate = "analysis/output/abricate/pAPEC_O1_ColBM.txt",
                      plasmid_reference_name = "pAPEC_O1_ColBM",
                      output_directory = "analysis/delims",
                      min_hit_id = 95,
@@ -879,7 +879,7 @@ Metadata <- left_join(Metadata, plas_perc_cov)
 
 #Same again for pAPEC_O78 (minus the resistance region)
 if(file.exists("analysis/delims/pAPEC_O78_ColV_plasmid_coverage_percentage.csv") == FALSE){
-        plasmid_mapR(path_to_abricate = "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/abricate/pAPEC_O78_ColV.txt",
+        plasmid_mapR(path_to_abricate = "analysis/output/abricate/pAPEC_O78_ColV.txt",
                      plasmid_reference_name = "pAPEC_O78_ColV",
                      output_directory = "analysis/delims",
                      min_hit_id = 95,
@@ -901,7 +901,7 @@ Metadata <- left_join(Metadata, plas_perc_cov)
 
 #Same again for pEC244_2 (minus the resistance region)
 if(file.exists("analysis/delims/pEC244_2_plasmid_coverage_percentage.csv") == FALSE){
-        plasmid_mapR(path_to_abricate = "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/abricate/pEC244_2.txt",
+        plasmid_mapR(path_to_abricate = "analysis/output/abricate/pEC244_2.txt",
                      plasmid_reference_name = "pEC244_2",
                      output_directory = "analysis/delims",
                      min_hit_id = 95,
@@ -922,7 +922,7 @@ Metadata <- left_join(Metadata, plas_perc_cov)
 
 #Same again for pAMSC2 (minus the resistance region)
 if(file.exists("analysis/delims/pAMSC2_plasmid_coverage_percentage.csv") == FALSE){
-        plasmid_mapR(path_to_abricate = "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/abricate/pAMSC2.txt",
+        plasmid_mapR(path_to_abricate = "analysis/output/abricate/pAMSC2.txt",
                      plasmid_reference_name = "pAMSC2",
                      output_directory = "analysis/delims",
                      min_hit_id = 95,
@@ -944,7 +944,7 @@ Metadata <- left_join(Metadata, plas_perc_cov)
 
 #Same again for pAMSC2 (minus the resistance region)
 if(file.exists("analysis/delims/pACN001_B_plasmid_coverage_percentage.csv") == FALSE){
-        plasmid_mapR(path_to_abricate = "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95/analysis/output/abricate/pACN001_B.txt",
+        plasmid_mapR(path_to_abricate = "analysis/output/abricate/pACN001_B.txt",
                      plasmid_reference_name = "pACN001_B",
                      output_directory = "analysis/delims",
                      min_hit_id = 95,

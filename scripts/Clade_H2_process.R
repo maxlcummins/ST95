@@ -5,7 +5,7 @@ library(readr)
 library(dplyr)
 
 #Set working directory
-working_dir <- "/Users/131785/Dropbox/Doctorate/Manuscripts/AVC171/ST95"
+working_dir <- "."
 
 #Load paths to files needed for the script
 tree_path <- "analysis/output/accessory_overlap_group.tree"
