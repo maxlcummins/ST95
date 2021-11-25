@@ -10,6 +10,13 @@ git clone https://github.com/maxlcummins/ST95.git
 cd ST95
 ```
 
+# Supplementary Table 2
+
+Due to file size restrictions Supplementary Table 2 is uploaded here. See the table legend below.
+
+Table S2 – Broad E. coli cohort IncF RSTs and metadata Table S2 – A table containing the IncF RST data, source associations and other metadata for the Enterobase cohort. Also includes Uberstrain numbers for all strains (allowing access via enterobase) and their NCBI Sequence Read Archive numbers, where applicable.
+
+
 # Package versions
 
 See session info below for package version:
