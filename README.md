@@ -14,10 +14,10 @@ cd ST95
 
 Due to file size restrictions Some supplementary files are uploaded here.
 
-* [Table S2](https://github.com/maxlcummins/ST95/Supplemental_Table_S2)
-* [Figure S2](https://github.com/maxlcummins/ST95/Supplemental_Figure_S2)
-* [Figure S3](https://github.com/maxlcummins/ST95/Supplemental_Figure_S3)
-* [Figure S4](https://github.com/maxlcummins/ST95/Supplemental_Figure_S4)
+* [Table S2](https://github.com/maxlcummins/ST95/Supplemental_Table_S2.txt)
+* [Figure S2](https://github.com/maxlcummins/ST95/Supplemental_Figure_S2.tiff)
+* [Figure S3](https://github.com/maxlcummins/ST95/Supplemental_Figure_S3.tiff)
+* [Figure S4](https://github.com/maxlcummins/ST95/Supplemental_Figure_S4.tiff)
 
 See the table legends below.
 
