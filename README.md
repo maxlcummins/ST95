@@ -22,15 +22,19 @@ Due to file size restrictions Some supplementary files are uploaded here.
 See the table legends below.
 
 Table S2 – Broad E. coli cohort IncF RSTs and metadata
+
 A table containing the IncF RST data, source associations and other metadata for the Enterobase cohort. Also includes Uberstrain numbers for all strains (allowing access via enterobase) and their NCBI Sequence Read Archive numbers, where applicable.
 
 Figure S2 - Core and accessory phylogenomic trees
+
 Core-genome (left) and accessory-genome (right) based phylogenies visualising the relatedness of ST95 isolates. Red tip labels indicate carriage of a ColVLP and grey tip labels indicate no carriage of a ColVLP (as per the Liu criteria), while tip points are coloured based on cgMLST HC200 groups. Concentric coloured rings from innermost to outermost show isolate source, coverage of one of six reference plasmids, count of antibiotic classes to which a isolate is resistant, carriage of class 1 integrase gene intI1, count of non-IncF repA genes and country of origin. Text outward of these coloured bars list the IncF RST, fimH type, O type and H type. Where a type is missing for a given isolate, F plasmid repA genes were not detected. Outermost letters on the core-genome phylogeny indicate clade designations and proximal to a given clade label is the primary fimH and serotype/s associated with a given clade. Trees are midpoint rooted.
 
 Figure S3 – ST95 SNP-distance matrix
+
 Maximum-likelihood tree visualising the core-genome similarity of ST95 isolates. Clades designations are shown, right of which is metadata pertaining to isolates fimH and serotype, source of isolation, sample details, HC5 group and HC2 group, respectively. Tip points are coloured based on carriage of reference plasmids, while red tip labels indicate carriage of a ColVLP and grey tip labels indicate no carriage of a ColVLP (as per the Liu criteria). The panel to the right is a heatmap visualising pairwise SNP distances. Tree is midpoint rooted.
 
-Figure S4 – Clade I genotypic tabl
+Figure S4 – Clade I genotypic table
+
 Maximum-likelihood tree visualising the core-genome similarity of clade I isolates. HC5 group and HC2 group are shown for a given isolate to the left of the tree, while icons to the right of the tip labels indicate metadata for a given sample including country of origin, source of isolation and sample details, respectively, followed by IncF RSTs. The panel to the right is a genotypic table visualizing the presence or absence of ColV plasmids and genes or SNPs of interest, coloured by the gene type. Tree is midpoint rooted.
 
 # Package versions
