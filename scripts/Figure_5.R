@@ -234,7 +234,7 @@ fig4b <- ggplot(pMLST_by_ST_top_5, aes(fill=gsub("^([0-9])","ST\\1",ST), y=perce
         scale_x_discrete(limits = orders)+
         scale_x_discrete(limits = orders)+
         geom_text(aes(label = gsub("^([0-9])","ST\\1",ST)), position = position_stack(vjust=0.5), size = 3) +
-        ylab(label = "Percentage") +
+        ylab(label = NULL) +
         scale_y_continuous(expand = c(0,0), labels = scales::percent) +
         scale_fill_manual(
                 name = "Sequence Type",
@@ -314,7 +314,7 @@ ColV_by_source$Final_Source <- gsub(" other", " Other", ColV_by_source$Final_Sou
 #Generate figure 4c
 fig4c <- ggplot(ColV_by_source, aes(fill=as.factor(ColV), y=counts, x=Final_Source)) + 
         geom_bar(position="fill", stat="identity" , color = "black") +
-        ylab(label = "Percentage") +
+        ylab(label = NULL) +
         scale_x_discrete(limits = c("Poultry", "Porcine", "Human ExPEC", "Companion Animal", "Human Other", "Bovine"))+
         scale_y_continuous(expand = c(0,0), labels = scales::percent) +
         scale_fill_manual(labels = c("Yes", "No"),
@@ -371,15 +371,15 @@ fig4+ #Add annotations for Subfigure labels
                  size = 5,
                  hjust = 0) +
         #Annotations for Figure B
-        annotate(geom = "text", x = 0.425, y = 0.97, label = "n==1078",
+        annotate(geom = "text", x = 0.415, y = 0.97, label = "n==1078",
                  parse = TRUE,
                  size = 5,
                  hjust = 0) +
-        annotate(geom = "text", x = 0.5, y = 0.97, label = "n==611",
+        annotate(geom = "text", x = 0.49, y = 0.97, label = "n==611",
                  parse = TRUE,
                  size = 5,
                  hjust = 0) +
-        annotate(geom = "text", x = 0.57, y = 0.97, label = 'n==491',
+        annotate(geom = "text", x = 0.56, y = 0.97, label = 'n==491',
                  parse = TRUE,
                  size = 5,
                  hjust = 0) +
