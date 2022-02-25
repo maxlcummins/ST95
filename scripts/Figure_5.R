@@ -51,7 +51,7 @@ Supp_Table_2$pMLST <- gsub("A-:","", Supp_Table_2$pMLST)
 ColV_status <- geno_meta %>% select(Assembly_barcode, ColV)
 
 #Designate sample names
-ColV_status <- ColV_status %>% rename(working_name = Assembly_barcode)
+ColV_status <- ColV_status %>% rename(name = Assembly_barcode)
 
 #Combine CoLV status with pMLST data
 ColV_status <- left_join(ColV_status, pMLST)
@@ -60,7 +60,7 @@ ColV_status <- left_join(ColV_status, pMLST)
 ColV_status <- ColV_status %>% select(pMLST, ColV)
 
 #Rename our name column in ST sheet
-ST %>% rename("working_name" = Assembly_barcode)
+#ST %>% rename("working_name" = Assembly_barcode)
 
 
 #### Generate a db of pMLST, ST, source, etc ####
@@ -188,7 +188,7 @@ fig4a <- ggplot(df_fig, aes(fill=Final_Source, y=percentage, x=pMLST)) +
         ylab(label = "Percentage") +
         scale_x_discrete(limits = orders) +
         scale_y_continuous(expand = c(0,0), labels = scales::percent) +
-        scale_fill_manual(labels = c("Bovine", "Companion animal", "Human ExPEC", "Human Other", "Porcine", "Poultry"),
+        scale_fill_manual(labels = c("Bovine", "Companion animal", "Human Other", "Other", "Poultry", "Human ExPEC", "Porcine"),
                           name = "Source",
                           aesthetics = c("colour", "fill"),
                           values = source_cols,
@@ -218,10 +218,10 @@ pMLST_by_ST_top_5 <- left_join(pMLST_by_ST_top_5, pMLST_sums_)
 pMLST_by_ST_top_5$percentage <- pMLST_by_ST_top_5$counts/pMLST_by_ST_top_5$Total_pMLST_count
 
 #change ST to other where percentage (as ratio/1) is <0.01
-pMLST_by_ST_top_5 <- pMLST_by_ST_top_5 %>% mutate(ST = ifelse(percentage <= 0.02, "Other", as.character(ST)))
+pMLST_by_ST_top_5 <- pMLST_by_ST_top_5 %>% mutate(ST = ifelse(percentage <= 0.021, "Other", as.character(ST)))
 
 #Generate a table for Figure 4
-pMLST_by_ST_top_5 <- pMLST_by_ST_top_5 %>% group_by(pMLST, ST) %>% summarise(counts = sum(counts), Total_pMLST_count = sum(Total_pMLST_count), percentage = sum(percentage))
+pMLST_by_ST_top_5 <- pMLST_by_ST_top_5 %>% group_by(pMLST, ST) %>% summarise(counts = sum(counts), Total_pMLST_count = unique(Total_pMLST_count), percentage = sum(percentage))
 pMLST_by_ST_top_5$pMLST <- gsub("^C4:A-:B1$","F18:B1", pMLST_by_ST_top_5$pMLST)
 pMLST_by_ST_top_5$pMLST <- gsub("A-:","", pMLST_by_ST_top_5$pMLST)
 
@@ -245,8 +245,8 @@ fig4b <- ggplot(pMLST_by_ST_top_5, aes(fill=gsub("^([0-9])","ST\\1",ST), y=perce
         xlab(label = "IncF RST") +
         theme_classic() + theme(axis.text = element_text(size = 15),
                                 axis.title = element_text(size = 15)) +
-        theme(plot.margin=unit(c(1,0,1,1),"cm"))
-
+        theme(plot.margin=unit(c(1,0,1,1),"cm")) + guides(col = guide_legend(nrow = 11))
+        
 
 #Export legend
 legend4a <- get_legend(fig4a)
@@ -326,7 +326,7 @@ fig4c <- ggplot(ColV_by_source, aes(fill=as.factor(ColV), y=counts, x=Final_Sour
         xlab(label = "Isolate source") +
         theme_classic() + theme(axis.text = element_text(size = 15),
                                 axis.title = element_text(size = 15),
-                                axis.text.x = element_text(size = 8, angle = 15, vjust = 0.8, hjust = 1)) +
+                                axis.text.x = element_text(size = 6, angle = 60, vjust = 1, hjust = 1)) +
         theme(plot.margin=unit(c(1,1.5,1,1),"cm"))
 
 #Extract the legend
